@@ -1,0 +1,1088 @@
+user_name,email,platform,amount,currency,description,earned_at
+"Kavya Menon","kavya.menon45@gmail.com","Upwork",15702.10,INR,"DevOps Setup",2025-12-23
+"Kavya Menon","kavya.menon45@gmail.com","Upwork",20363.75,INR,"Mobile App Development",2026-01-29
+"Kavya Menon","kavya.menon45@gmail.com","Upwork",2578.33,INR,"Landing Page Design",2026-02-22
+"Kavya Menon","kavya.menon45@gmail.com","Upwork",3424.25,INR,"Bug Fix Sprint",2025-11-13
+"Kavya Menon","kavya.menon45@gmail.com","Upwork",711.11,INR,"React Frontend Build",2025-12-03
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",20443.52,INR,"Bug Fix Sprint",2025-11-27
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",24999.61,INR,"React Frontend Build",2025-11-21
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",9486.22,INR,"Mobile App Development",2026-02-26
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",24897.09,INR,"React Frontend Build",2026-01-05
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",12387.05,INR,"Web Development Project",2025-10-14
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",20755.88,INR,"Database Optimization",2026-01-02
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",7777.51,INR,"WordPress Plugin",2025-09-23
+"Wasim Sethi","wasim.sethi80@gmail.com","Upwork",19100.29,INR,"Full Stack Project",2025-12-05
+"Wasim Sethi","wasim.sethi80@gmail.com","Fiverr",4497.84,INR,"Photo Editing",2025-11-23
+"Wasim Sethi","wasim.sethi80@gmail.com","Fiverr",10865.42,INR,"Voice Over",2026-01-27
+"Wasim Sethi","wasim.sethi80@gmail.com","Fiverr",6378.64,INR,"Video Editing",2025-10-13
+"Wasim Sethi","wasim.sethi80@gmail.com","Freelancer.com",24124.85,INR,"IoT Dashboard",2025-11-07
+"Wasim Sethi","wasim.sethi80@gmail.com","Freelancer.com",1183.41,INR,"Cloud Migration",2025-10-20
+"Wasim Sethi","wasim.sethi80@gmail.com","Freelancer.com",21428.94,INR,"Android App",2025-11-15
+"Wasim Sethi","wasim.sethi80@gmail.com","Freelancer.com",9494.10,INR,"Python Script Development",2025-11-28
+"Harish Menon","harish.menon31@gmail.com","Freelancer.com",3152.94,INR,"Machine Learning Model",2025-10-01
+"Harish Menon","harish.menon31@gmail.com","Freelancer.com",21785.26,INR,"Android App",2026-01-20
+"Harish Menon","harish.menon31@gmail.com","Freelancer.com",9483.46,INR,"Blockchain Integration",2025-11-08
+"Harish Menon","harish.menon31@gmail.com","Upwork",18928.23,INR,"DevOps Setup",2025-09-13
+"Harish Menon","harish.menon31@gmail.com","Upwork",17077.19,INR,"DevOps Setup",2025-11-24
+"Harish Menon","harish.menon31@gmail.com","Upwork",14262.30,INR,"Landing Page Design",2026-02-26
+"Harish Menon","harish.menon31@gmail.com","Upwork",1625.92,INR,"WordPress Plugin",2025-11-03
+"Harish Menon","harish.menon31@gmail.com","Upwork",6148.40,INR,"Mobile App Development",2025-12-24
+"Harish Menon","harish.menon31@gmail.com","Upwork",2824.16,INR,"Web Development Project",2025-09-15
+"Harish Menon","harish.menon31@gmail.com","Upwork",7791.62,INR,"SEO Optimization",2025-09-10
+"Harish Menon","harish.menon31@gmail.com","Fiverr",4411.11,INR,"Logo Design",2026-01-22
+"Harish Menon","harish.menon31@gmail.com","Fiverr",18093.78,INR,"Resume Writing",2026-01-23
+"Harish Menon","harish.menon31@gmail.com","Fiverr",11013.40,INR,"Resume Writing",2026-01-05
+"Harish Menon","harish.menon31@gmail.com","Fiverr",2410.61,INR,"Virtual Assistant",2026-02-01
+"Ileana Yadav","ileana.yadav67@gmail.com","Upwork",21429.92,INR,"Code Review",2025-09-10
+"Ileana Yadav","ileana.yadav67@gmail.com","Upwork",1278.68,INR,"API Integration",2025-12-18
+"Ileana Yadav","ileana.yadav67@gmail.com","Upwork",19823.44,INR,"Mobile App Development",2025-11-11
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",18192.29,INR,"Whiteboard Animation",2026-02-16
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",6629.55,INR,"Data Entry",2026-01-08
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",24931.04,INR,"Data Entry",2025-09-09
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",6951.67,INR,"Social Media Management",2026-01-03
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",513.53,INR,"Copywriting",2025-10-11
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",21819.45,INR,"Data Entry",2025-11-29
+"Ileana Yadav","ileana.yadav67@gmail.com","Fiverr",2753.09,INR,"Translation Service",2025-10-10
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Freelancer.com",20870.82,INR,"Payment Gateway Setup",2025-11-02
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Freelancer.com",565.99,INR,"Game Development",2025-11-08
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Freelancer.com",19699.67,INR,"Cloud Migration",2026-03-03
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",6686.02,INR,"DevOps Setup",2025-12-07
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",19160.31,INR,"UI/UX Design Review",2025-11-14
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",14723.32,INR,"Bug Fix Sprint",2025-11-03
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",11893.30,INR,"Bug Fix Sprint",2026-02-04
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",8955.96,INR,"API Integration",2026-01-27
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",5814.81,INR,"Web Development Project",2026-01-04
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Upwork",3568.31,INR,"Bug Fix Sprint",2026-01-28
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",13635.07,INR,"Resume Writing",2025-12-16
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",10549.34,INR,"Whiteboard Animation",2025-10-27
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",4289.44,INR,"Copywriting",2025-09-29
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",11705.28,INR,"Voice Over",2025-12-16
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",8096.63,INR,"Video Editing",2026-03-07
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",4618.96,INR,"Video Editing",2025-12-11
+"Aditya Deshmukh","aditya.deshmukh63@gmail.com","Fiverr",7713.59,INR,"Social Media Management",2025-10-26
+"Meera Menon","meera.menon66@gmail.com","Upwork",5454.24,INR,"API Integration",2025-11-15
+"Meera Menon","meera.menon66@gmail.com","Upwork",23109.67,INR,"Bug Fix Sprint",2026-02-26
+"Meera Menon","meera.menon66@gmail.com","Upwork",7872.05,INR,"Node.js Backend Service",2025-11-07
+"Meera Menon","meera.menon66@gmail.com","Upwork",17870.05,INR,"API Integration",2026-01-16
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Upwork",8250.75,INR,"Technical Writing",2025-10-06
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Upwork",20403.82,INR,"Code Review",2025-12-16
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Upwork",12114.77,INR,"API Integration",2025-09-10
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Upwork",12698.48,INR,"Full Stack Project",2025-09-17
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",1289.32,INR,"Voice Over",2026-02-19
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",2174.98,INR,"Illustration",2026-02-08
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",11122.23,INR,"Data Entry",2025-12-26
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",9421.73,INR,"Voice Over",2026-01-31
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",4359.62,INR,"Graphic Design",2026-02-12
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",21589.99,INR,"Podcast Editing",2025-11-30
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Fiverr",22755.09,INR,"Podcast Editing",2025-11-18
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",19132.96,INR,"Excel Automation",2025-11-05
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",1730.40,INR,"Chatbot Development",2026-01-06
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",8205.01,INR,"Python Script Development",2026-02-19
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",7088.05,INR,"Chatbot Development",2025-09-12
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",4219.58,INR,"Data Analysis Report",2026-01-19
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",1391.04,INR,"Cloud Migration",2026-01-11
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",11481.61,INR,"Blockchain Integration",2025-12-07
+"Bhavna Thakur","bhavna.thakur14@gmail.com","Freelancer.com",3841.68,INR,"ETL Pipeline",2025-11-19
+"Venkat Banerjee","venkat.banerjee62@gmail.com","Upwork",11497.20,INR,"React Frontend Build",2026-02-15
+"Venkat Banerjee","venkat.banerjee62@gmail.com","Upwork",583.74,INR,"WordPress Plugin",2025-11-11
+"Venkat Banerjee","venkat.banerjee62@gmail.com","Upwork",16438.50,INR,"UI/UX Design Review",2026-02-03
+"Venkat Banerjee","venkat.banerjee62@gmail.com","Upwork",7494.82,INR,"DevOps Setup",2025-09-14
+"Venkat Banerjee","venkat.banerjee62@gmail.com","Upwork",10286.16,INR,"DevOps Setup",2026-02-24
+"Zeeshan Mehta","zeeshan.mehta47@gmail.com","Freelancer.com",13487.49,INR,"Machine Learning Model",2026-03-05
+"Zeeshan Mehta","zeeshan.mehta47@gmail.com","Freelancer.com",13816.39,INR,"ETL Pipeline",2025-10-19
+"Zeeshan Mehta","zeeshan.mehta47@gmail.com","Freelancer.com",2548.40,INR,"Machine Learning Model",2025-09-29
+"Zeeshan Mehta","zeeshan.mehta47@gmail.com","Freelancer.com",14086.50,INR,"Game Development",2025-10-13
+"Zeeshan Mehta","zeeshan.mehta47@gmail.com","Freelancer.com",22060.22,INR,"Machine Learning Model",2025-12-02
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Upwork",21408.81,INR,"UI/UX Design Review",2025-11-13
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Upwork",15580.41,INR,"Bug Fix Sprint",2025-09-09
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Upwork",13467.70,INR,"Code Review",2026-01-18
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Fiverr",9578.53,INR,"Graphic Design",2025-11-06
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Fiverr",18836.67,INR,"Content Writing",2025-10-02
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Fiverr",7438.14,INR,"Voice Over",2026-01-26
+"Nisha Deshmukh","nisha.deshmukh30@gmail.com","Fiverr",7350.57,INR,"Translation Service",2026-03-07
+"Chitra Menon","chitra.menon27@gmail.com","Upwork",8832.94,INR,"React Frontend Build",2026-01-30
+"Chitra Menon","chitra.menon27@gmail.com","Upwork",22785.98,INR,"Technical Writing",2026-01-10
+"Chitra Menon","chitra.menon27@gmail.com","Upwork",21281.67,INR,"Full Stack Project",2025-12-06
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",4697.83,INR,"Podcast Editing",2026-01-16
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",10116.30,INR,"Podcast Editing",2026-01-28
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",17639.22,INR,"Copywriting",2025-09-15
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",16744.73,INR,"Voice Over",2026-01-18
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",9352.69,INR,"Photo Editing",2025-10-09
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",21969.44,INR,"Graphic Design",2025-10-04
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",8438.83,INR,"Logo Design",2025-11-21
+"Chitra Menon","chitra.menon27@gmail.com","Fiverr",1728.05,INR,"Data Entry",2025-11-09
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",11333.75,INR,"Game Development",2025-09-09
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",17127.26,INR,"ERP Customization",2025-09-28
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",23449.72,INR,"Chatbot Development",2026-01-03
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",16249.92,INR,"Shopify Store Setup",2025-12-10
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",3900.72,INR,"Chatbot Development",2026-03-05
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",11457.27,INR,"Shopify Store Setup",2025-11-10
+"Chitra Menon","chitra.menon27@gmail.com","Freelancer.com",5559.01,INR,"Excel Automation",2025-11-03
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",24613.53,INR,"Landing Page Design",2026-01-11
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",11544.38,INR,"API Integration",2025-10-24
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",10167.86,INR,"React Frontend Build",2025-10-27
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",23446.24,INR,"Technical Writing",2026-02-23
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",4379.09,INR,"Technical Writing",2025-11-23
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",13024.97,INR,"Landing Page Design",2025-10-22
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",4231.59,INR,"Web Development Project",2025-12-30
+"Omika Mishra","omika.mishra16@gmail.com","Upwork",12357.47,INR,"DevOps Setup",2026-01-09
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",24802.89,INR,"Cloud Migration",2026-01-25
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",15580.28,INR,"Chatbot Development",2025-10-05
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",7645.48,INR,"Data Analysis Report",2025-12-24
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",10787.18,INR,"IoT Dashboard",2025-11-08
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",8081.05,INR,"Cloud Migration",2026-02-17
+"Aditya Arora","aditya.arora50@gmail.com","Freelancer.com",24700.45,INR,"Game Development",2025-12-31
+"Aditya Arora","aditya.arora50@gmail.com","Fiverr",1004.97,INR,"Voice Over",2025-09-17
+"Aditya Arora","aditya.arora50@gmail.com","Fiverr",12164.11,INR,"Graphic Design",2025-10-29
+"Aditya Arora","aditya.arora50@gmail.com","Fiverr",12453.70,INR,"Illustration",2025-12-18
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",18476.83,INR,"Data Analysis Report",2025-09-14
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",6504.42,INR,"Cybersecurity Audit",2026-02-27
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",1461.46,INR,"Cybersecurity Audit",2025-10-25
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",4643.45,INR,"Shopify Store Setup",2025-12-17
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",24324.32,INR,"Game Development",2025-09-18
+"Rani Thakur","rani.thakur33@gmail.com","Freelancer.com",17926.61,INR,"Machine Learning Model",2025-12-23
+"Rani Thakur","rani.thakur33@gmail.com","Fiverr",14827.86,INR,"Graphic Design",2026-01-25
+"Rani Thakur","rani.thakur33@gmail.com","Fiverr",6603.87,INR,"Video Editing",2025-12-31
+"Rani Thakur","rani.thakur33@gmail.com","Fiverr",17268.73,INR,"Video Editing",2026-02-13
+"Rani Thakur","rani.thakur33@gmail.com","Fiverr",19674.45,INR,"Virtual Assistant",2025-10-20
+"Isha Chauhan","isha.chauhan5@gmail.com","Freelancer.com",848.13,INR,"Machine Learning Model",2026-02-09
+"Isha Chauhan","isha.chauhan5@gmail.com","Freelancer.com",24443.14,INR,"Cloud Migration",2026-02-27
+"Isha Chauhan","isha.chauhan5@gmail.com","Freelancer.com",24960.67,INR,"IoT Dashboard",2025-12-18
+"Isha Chauhan","isha.chauhan5@gmail.com","Freelancer.com",6176.60,INR,"Blockchain Integration",2025-09-28
+"Isha Chauhan","isha.chauhan5@gmail.com","Freelancer.com",14724.16,INR,"Game Development",2025-10-06
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",14087.58,INR,"React Frontend Build",2025-11-29
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",16159.73,INR,"API Integration",2025-09-28
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",5099.75,INR,"Database Optimization",2025-09-25
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",3308.02,INR,"Bug Fix Sprint",2025-12-09
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",9982.35,INR,"Web Development Project",2025-12-28
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",17036.74,INR,"Landing Page Design",2025-10-11
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Upwork",926.43,INR,"DevOps Setup",2026-01-30
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Fiverr",18151.25,INR,"Social Media Management",2025-12-24
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Fiverr",18648.15,INR,"Resume Writing",2025-11-23
+"Eshan Bhatia","eshan.bhatia85@gmail.com","Fiverr",9162.92,INR,"Resume Writing",2026-02-17
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",3694.62,INR,"Code Review",2025-12-22
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",18232.98,INR,"Code Review",2025-09-13
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",16183.93,INR,"React Frontend Build",2025-12-03
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",16576.45,INR,"UI/UX Design Review",2025-09-22
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",12548.38,INR,"Web Development Project",2025-09-09
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",24676.00,INR,"React Frontend Build",2025-10-24
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",23258.99,INR,"React Frontend Build",2025-10-27
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Upwork",15361.43,INR,"Bug Fix Sprint",2025-11-30
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Fiverr",9074.73,INR,"Social Media Management",2026-02-02
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Fiverr",2094.98,INR,"Whiteboard Animation",2025-12-15
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Fiverr",3168.34,INR,"Translation Service",2025-09-13
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Fiverr",3444.77,INR,"Graphic Design",2025-10-07
+"Chitra Tiwari","chitra.tiwari80@gmail.com","Fiverr",13172.66,INR,"Resume Writing",2026-02-28
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",18943.93,INR,"Resume Writing",2025-10-03
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",9218.32,INR,"Whiteboard Animation",2026-01-26
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",21741.93,INR,"Copywriting",2025-11-16
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",6228.31,INR,"Whiteboard Animation",2025-09-22
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",15133.10,INR,"Voice Over",2025-10-19
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",17243.00,INR,"Video Editing",2026-01-20
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",9630.92,INR,"Translation Service",2025-10-24
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Fiverr",18508.45,INR,"Content Writing",2025-12-15
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",13875.75,INR,"Mobile App Development",2025-11-17
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",16377.47,INR,"React Frontend Build",2025-09-11
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",10554.42,INR,"SEO Optimization",2025-12-29
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",19515.71,INR,"Technical Writing",2026-02-13
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",20810.20,INR,"DevOps Setup",2025-10-06
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Upwork",12909.20,INR,"React Frontend Build",2025-10-26
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Freelancer.com",11182.73,INR,"Python Script Development",2025-10-02
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Freelancer.com",4229.93,INR,"Chatbot Development",2026-01-08
+"Reyansh Mukherjee","reyansh.mukherjee13@gmail.com","Freelancer.com",22465.82,INR,"Python Script Development",2026-02-04
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",19396.24,INR,"Photo Editing",2025-12-22
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",10399.25,INR,"Content Writing",2025-12-17
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",18366.27,INR,"Copywriting",2025-09-22
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",14430.39,INR,"Voice Over",2026-02-19
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",17064.39,INR,"Copywriting",2026-01-01
+"Aditya Srivastava","aditya.srivastava98@gmail.com","Fiverr",23392.91,INR,"Data Entry",2026-02-21
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",1075.43,INR,"ERP Customization",2025-09-23
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",16292.63,INR,"Cybersecurity Audit",2025-11-13
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",19970.45,INR,"ETL Pipeline",2025-10-18
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",14750.46,INR,"Cybersecurity Audit",2025-12-17
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",1031.48,INR,"Python Script Development",2026-02-07
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",5846.15,INR,"IoT Dashboard",2025-12-19
+"Madhuri Shah","madhuri.shah34@gmail.com","Freelancer.com",1054.57,INR,"Game Development",2025-11-04
+"Madhuri Shah","madhuri.shah34@gmail.com","Fiverr",23223.70,INR,"Illustration",2025-10-03
+"Madhuri Shah","madhuri.shah34@gmail.com","Fiverr",12442.88,INR,"Voice Over",2025-12-17
+"Madhuri Shah","madhuri.shah34@gmail.com","Fiverr",16011.75,INR,"Virtual Assistant",2026-02-05
+"Madhuri Shah","madhuri.shah34@gmail.com","Fiverr",23213.94,INR,"Copywriting",2025-11-29
+"Madhuri Shah","madhuri.shah34@gmail.com","Fiverr",7288.62,INR,"Resume Writing",2025-12-27
+"Girish Shah","girish.shah86@gmail.com","Fiverr",8578.77,INR,"Illustration",2026-02-26
+"Girish Shah","girish.shah86@gmail.com","Fiverr",24972.72,INR,"Logo Design",2026-03-01
+"Girish Shah","girish.shah86@gmail.com","Fiverr",3323.48,INR,"Graphic Design",2026-01-08
+"Girish Shah","girish.shah86@gmail.com","Fiverr",4799.89,INR,"Whiteboard Animation",2026-01-15
+"Girish Shah","girish.shah86@gmail.com","Upwork",22212.16,INR,"SEO Optimization",2026-02-19
+"Girish Shah","girish.shah86@gmail.com","Upwork",3124.21,INR,"SEO Optimization",2025-09-20
+"Girish Shah","girish.shah86@gmail.com","Upwork",963.29,INR,"Full Stack Project",2025-12-13
+"Girish Shah","girish.shah86@gmail.com","Freelancer.com",21378.91,INR,"Python Script Development",2025-12-20
+"Girish Shah","girish.shah86@gmail.com","Freelancer.com",9607.63,INR,"Python Script Development",2025-10-03
+"Girish Shah","girish.shah86@gmail.com","Freelancer.com",11875.23,INR,"Machine Learning Model",2025-12-05
+"Girish Shah","girish.shah86@gmail.com","Freelancer.com",20379.66,INR,"Chatbot Development",2025-12-28
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",7962.45,INR,"Whiteboard Animation",2025-12-04
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",9565.27,INR,"Resume Writing",2025-12-22
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",11937.61,INR,"Content Writing",2025-09-26
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",19196.11,INR,"Copywriting",2025-12-30
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",7781.13,INR,"Voice Over",2025-10-18
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",23558.50,INR,"Content Writing",2025-11-19
+"Vikram Mehta","vikram.mehta98@gmail.com","Fiverr",14881.21,INR,"Photo Editing",2026-01-26
+"Vikram Mehta","vikram.mehta98@gmail.com","Freelancer.com",20060.63,INR,"Chatbot Development",2025-10-16
+"Vikram Mehta","vikram.mehta98@gmail.com","Freelancer.com",4244.23,INR,"Game Development",2025-10-10
+"Vikram Mehta","vikram.mehta98@gmail.com","Freelancer.com",10009.70,INR,"Python Script Development",2026-01-16
+"Vikram Mehta","vikram.mehta98@gmail.com","Freelancer.com",4358.28,INR,"Machine Learning Model",2025-11-06
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",2536.60,INR,"Bug Fix Sprint",2026-01-02
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",2250.17,INR,"Web Development Project",2026-01-14
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",18086.06,INR,"Mobile App Development",2026-02-26
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",6636.36,INR,"Technical Writing",2025-10-15
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",22357.51,INR,"React Frontend Build",2026-03-02
+"Latika Ahuja","latika.ahuja99@gmail.com","Upwork",2468.97,INR,"API Integration",2026-01-11
+"Girish Saxena","girish.saxena19@gmail.com","Fiverr",8959.33,INR,"Virtual Assistant",2025-10-09
+"Girish Saxena","girish.saxena19@gmail.com","Fiverr",11582.56,INR,"Illustration",2025-12-09
+"Girish Saxena","girish.saxena19@gmail.com","Fiverr",11027.15,INR,"Logo Design",2025-11-03
+"Girish Saxena","girish.saxena19@gmail.com","Fiverr",16086.79,INR,"Content Writing",2026-01-01
+"Girish Saxena","girish.saxena19@gmail.com","Fiverr",15219.57,INR,"Whiteboard Animation",2026-01-31
+"Girish Saxena","girish.saxena19@gmail.com","Freelancer.com",23783.55,INR,"Android App",2026-01-23
+"Girish Saxena","girish.saxena19@gmail.com","Freelancer.com",4263.09,INR,"Payment Gateway Setup",2026-01-07
+"Girish Saxena","girish.saxena19@gmail.com","Freelancer.com",16555.43,INR,"Excel Automation",2026-02-15
+"Girish Saxena","girish.saxena19@gmail.com","Upwork",15783.09,INR,"Technical Writing",2026-02-02
+"Girish Saxena","girish.saxena19@gmail.com","Upwork",3982.79,INR,"WordPress Plugin",2025-12-02
+"Girish Saxena","girish.saxena19@gmail.com","Upwork",14507.23,INR,"Code Review",2026-02-09
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",22569.95,INR,"Data Analysis Report",2025-11-15
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",12970.61,INR,"IoT Dashboard",2026-03-05
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",5578.98,INR,"ERP Customization",2025-09-16
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",22086.44,INR,"Data Analysis Report",2025-09-12
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",597.36,INR,"Game Development",2025-11-03
+"Mala Agarwal","mala.agarwal64@gmail.com","Freelancer.com",2580.90,INR,"ETL Pipeline",2025-12-05
+"Mala Agarwal","mala.agarwal64@gmail.com","Fiverr",9162.75,INR,"Graphic Design",2025-10-06
+"Mala Agarwal","mala.agarwal64@gmail.com","Fiverr",16734.17,INR,"Voice Over",2025-12-04
+"Mala Agarwal","mala.agarwal64@gmail.com","Fiverr",24393.46,INR,"Translation Service",2025-09-15
+"Mala Agarwal","mala.agarwal64@gmail.com","Fiverr",22262.70,INR,"Content Writing",2025-10-05
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Freelancer.com",18267.48,INR,"IoT Dashboard",2026-02-15
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Freelancer.com",24890.71,INR,"Chatbot Development",2025-11-27
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Freelancer.com",14282.41,INR,"Cybersecurity Audit",2025-12-30
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Freelancer.com",14695.96,INR,"Cybersecurity Audit",2026-01-10
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",20641.35,INR,"API Integration",2025-11-03
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",1488.25,INR,"API Integration",2025-11-18
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",1677.79,INR,"SEO Optimization",2025-11-26
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",9951.48,INR,"UI/UX Design Review",2025-10-26
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",18184.00,INR,"DevOps Setup",2025-10-14
+"Pankaj Sharma","pankaj.sharma21@gmail.com","Upwork",4648.49,INR,"Code Review",2025-12-08
+"Pallavi Bajaj","pallavi.bajaj79@gmail.com","Upwork",6397.60,INR,"Web Development Project",2025-11-26
+"Pallavi Bajaj","pallavi.bajaj79@gmail.com","Upwork",8793.03,INR,"Technical Writing",2025-12-28
+"Pallavi Bajaj","pallavi.bajaj79@gmail.com","Upwork",14030.75,INR,"Database Optimization",2025-11-20
+"Pallavi Bajaj","pallavi.bajaj79@gmail.com","Upwork",15917.27,INR,"Landing Page Design",2026-02-23
+"Pallavi Bajaj","pallavi.bajaj79@gmail.com","Upwork",7617.22,INR,"React Frontend Build",2025-11-20
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",9271.06,INR,"Bug Fix Sprint",2025-11-24
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",18248.84,INR,"React Frontend Build",2026-02-18
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",7192.93,INR,"Database Optimization",2025-09-23
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",17818.30,INR,"Web Development Project",2025-10-10
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",22116.94,INR,"Database Optimization",2026-01-28
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",13387.26,INR,"SEO Optimization",2025-12-05
+"Tara Mehta","tara.mehta62@gmail.com","Upwork",2976.13,INR,"Landing Page Design",2025-12-24
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",20283.23,INR,"DevOps Setup",2025-12-05
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",5986.51,INR,"API Integration",2026-01-25
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",24020.34,INR,"Technical Writing",2025-10-08
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",10158.60,INR,"API Integration",2026-02-03
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",10898.89,INR,"API Integration",2025-09-21
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",11877.45,INR,"React Frontend Build",2026-02-14
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",21154.95,INR,"Bug Fix Sprint",2026-02-17
+"Aarav Chadha","aarav.chadha2@gmail.com","Upwork",4225.63,INR,"Bug Fix Sprint",2026-01-17
+"Aarav Chadha","aarav.chadha2@gmail.com","Freelancer.com",5345.17,INR,"Shopify Store Setup",2025-10-08
+"Aarav Chadha","aarav.chadha2@gmail.com","Freelancer.com",6420.28,INR,"Chatbot Development",2026-01-03
+"Aarav Chadha","aarav.chadha2@gmail.com","Freelancer.com",13725.17,INR,"ERP Customization",2025-12-19
+"Aarav Chadha","aarav.chadha2@gmail.com","Freelancer.com",18405.65,INR,"Python Script Development",2026-01-15
+"Aarav Chadha","aarav.chadha2@gmail.com","Freelancer.com",7904.32,INR,"Python Script Development",2025-11-29
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Upwork",10347.96,INR,"Full Stack Project",2026-01-03
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Upwork",10311.99,INR,"Mobile App Development",2025-12-16
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Upwork",5813.50,INR,"Landing Page Design",2026-01-15
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Upwork",18358.29,INR,"Landing Page Design",2025-11-20
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",17988.66,INR,"Data Analysis Report",2026-02-13
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",15546.65,INR,"ETL Pipeline",2026-01-19
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",7876.45,INR,"Blockchain Integration",2025-12-23
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",20028.79,INR,"Machine Learning Model",2025-09-10
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",21235.75,INR,"ETL Pipeline",2026-01-26
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",23403.71,INR,"Android App",2025-10-24
+"Chitra Tiwari","chitra.tiwari64@gmail.com","Freelancer.com",20333.50,INR,"Game Development",2025-11-06
+"Rashmi Bose","rashmi.bose60@gmail.com","Upwork",2538.84,INR,"WordPress Plugin",2025-12-26
+"Rashmi Bose","rashmi.bose60@gmail.com","Upwork",21324.45,INR,"Database Optimization",2026-01-30
+"Rashmi Bose","rashmi.bose60@gmail.com","Upwork",11708.39,INR,"Bug Fix Sprint",2025-12-07
+"Rashmi Bose","rashmi.bose60@gmail.com","Upwork",18812.42,INR,"WordPress Plugin",2026-01-23
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",6229.07,INR,"WordPress Plugin",2025-11-28
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",1270.61,INR,"Node.js Backend Service",2025-10-16
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",21505.60,INR,"React Frontend Build",2026-03-01
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",3247.89,INR,"Mobile App Development",2025-12-27
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",15908.39,INR,"Full Stack Project",2025-10-24
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Upwork",18985.52,INR,"Code Review",2026-01-13
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Fiverr",21981.54,INR,"Graphic Design",2025-09-23
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Fiverr",15553.17,INR,"Translation Service",2025-09-10
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Fiverr",10823.94,INR,"Graphic Design",2025-12-14
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Fiverr",23938.34,INR,"Video Editing",2026-02-20
+"Nikhil Tiwari","nikhil.tiwari35@gmail.com","Fiverr",6847.95,INR,"Illustration",2025-12-16
+"Naveen Chadha","naveen.chadha50@gmail.com","Upwork",4395.45,INR,"Mobile App Development",2025-10-05
+"Naveen Chadha","naveen.chadha50@gmail.com","Upwork",21331.34,INR,"Technical Writing",2025-12-18
+"Naveen Chadha","naveen.chadha50@gmail.com","Upwork",9714.73,INR,"Database Optimization",2026-03-01
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",17494.53,INR,"Data Entry",2025-09-24
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",19139.47,INR,"Photo Editing",2025-10-29
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",5617.39,INR,"Video Editing",2026-01-24
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",25000.87,INR,"Social Media Management",2026-02-08
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",994.78,INR,"Podcast Editing",2025-10-19
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",24841.48,INR,"Content Writing",2026-02-09
+"Naveen Chadha","naveen.chadha50@gmail.com","Fiverr",12122.09,INR,"Social Media Management",2025-12-26
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",15795.98,INR,"Technical Writing",2025-09-25
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",10508.82,INR,"Database Optimization",2025-11-21
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",18559.73,INR,"Landing Page Design",2026-01-13
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",19530.21,INR,"Node.js Backend Service",2025-09-26
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",9650.62,INR,"WordPress Plugin",2025-12-28
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",14964.31,INR,"Landing Page Design",2025-10-13
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Upwork",15738.83,INR,"WordPress Plugin",2025-11-07
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",22864.99,INR,"Resume Writing",2025-11-25
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",17642.01,INR,"Whiteboard Animation",2026-01-09
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",23714.61,INR,"Photo Editing",2025-09-14
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",5248.78,INR,"Photo Editing",2025-10-17
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",17562.04,INR,"Social Media Management",2026-01-09
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",14970.11,INR,"Illustration",2025-10-17
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",23292.82,INR,"Podcast Editing",2025-12-12
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Fiverr",23086.06,INR,"Logo Design",2026-02-23
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Freelancer.com",13834.13,INR,"Machine Learning Model",2025-11-15
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Freelancer.com",4881.27,INR,"Payment Gateway Setup",2026-02-22
+"Bhavna Ahuja","bhavna.ahuja9@gmail.com","Freelancer.com",3961.92,INR,"Cybersecurity Audit",2026-01-17
+"Girish Gupta","girish.gupta77@gmail.com","Upwork",7755.95,INR,"Code Review",2026-01-04
+"Girish Gupta","girish.gupta77@gmail.com","Upwork",2166.31,INR,"Database Optimization",2025-10-24
+"Girish Gupta","girish.gupta77@gmail.com","Upwork",14604.36,INR,"UI/UX Design Review",2025-11-22
+"Girish Gupta","girish.gupta77@gmail.com","Upwork",23817.35,INR,"Mobile App Development",2026-03-01
+"Girish Gupta","girish.gupta77@gmail.com","Upwork",7862.25,INR,"Node.js Backend Service",2025-11-15
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",24736.11,INR,"Illustration",2025-11-02
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",10914.15,INR,"Content Writing",2025-09-27
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",9619.86,INR,"Translation Service",2025-09-17
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",22857.07,INR,"Content Writing",2025-11-24
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",9435.66,INR,"Social Media Management",2025-10-02
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",6907.49,INR,"Graphic Design",2025-10-30
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",8616.86,INR,"Resume Writing",2026-01-06
+"Girish Gupta","girish.gupta77@gmail.com","Fiverr",17841.25,INR,"Podcast Editing",2026-02-19
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",17435.24,INR,"Cloud Migration",2025-10-04
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",18973.61,INR,"Android App",2025-12-30
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",3877.71,INR,"Data Analysis Report",2026-02-11
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",12777.48,INR,"Cloud Migration",2025-12-01
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",17473.15,INR,"Data Analysis Report",2026-01-13
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Freelancer.com",17657.29,INR,"Python Script Development",2026-01-03
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Fiverr",15301.30,INR,"Virtual Assistant",2025-12-03
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Fiverr",9944.36,INR,"Copywriting",2026-01-02
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Fiverr",4708.74,INR,"Whiteboard Animation",2025-12-12
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Fiverr",21831.43,INR,"Social Media Management",2025-09-22
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Fiverr",7376.65,INR,"Virtual Assistant",2025-09-20
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Upwork",4976.36,INR,"Node.js Backend Service",2025-10-25
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Upwork",3185.71,INR,"Code Review",2026-02-03
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Upwork",7175.31,INR,"WordPress Plugin",2025-10-06
+"Pooja Mukherjee","pooja.mukherjee24@gmail.com","Upwork",20075.03,INR,"SEO Optimization",2025-10-03
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",15309.28,INR,"Graphic Design",2025-10-29
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",12513.24,INR,"Social Media Management",2025-10-09
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",3355.66,INR,"Logo Design",2025-12-08
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",9636.43,INR,"Data Entry",2025-11-20
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",7860.51,INR,"Podcast Editing",2026-01-06
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",14642.10,INR,"Logo Design",2026-01-03
+"Vishal Shukla","vishal.shukla72@gmail.com","Fiverr",10388.50,INR,"Voice Over",2025-09-20
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",15332.73,INR,"Machine Learning Model",2025-10-26
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",18134.88,INR,"Android App",2025-09-22
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",8744.95,INR,"IoT Dashboard",2025-12-04
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",21113.11,INR,"Blockchain Integration",2025-09-11
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",11706.34,INR,"Cloud Migration",2025-11-04
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",4194.07,INR,"IoT Dashboard",2025-10-24
+"Vishal Shukla","vishal.shukla72@gmail.com","Freelancer.com",23181.44,INR,"Machine Learning Model",2025-11-16
+"Vihaan Joshi","vihaan.joshi49@gmail.com","Fiverr",19942.32,INR,"Resume Writing",2025-12-31
+"Vihaan Joshi","vihaan.joshi49@gmail.com","Fiverr",22962.35,INR,"Social Media Management",2025-10-24
+"Vihaan Joshi","vihaan.joshi49@gmail.com","Fiverr",9246.76,INR,"Whiteboard Animation",2025-12-22
+"Vihaan Joshi","vihaan.joshi49@gmail.com","Fiverr",7071.38,INR,"Voice Over",2026-02-10
+"Vihaan Joshi","vihaan.joshi49@gmail.com","Fiverr",15050.81,INR,"Whiteboard Animation",2026-02-06
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",6478.54,INR,"Shopify Store Setup",2026-02-18
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",14731.41,INR,"Excel Automation",2026-02-18
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",4599.00,INR,"Data Analysis Report",2026-02-06
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",10428.98,INR,"Machine Learning Model",2025-10-20
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",4237.20,INR,"IoT Dashboard",2026-02-17
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",6943.31,INR,"Chatbot Development",2025-10-19
+"Latika Pillai","latika.pillai64@gmail.com","Freelancer.com",8882.36,INR,"Android App",2026-01-28
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",10077.89,INR,"Data Analysis Report",2025-11-13
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",15688.18,INR,"Blockchain Integration",2026-02-04
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",13193.45,INR,"Data Analysis Report",2026-03-03
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",4437.79,INR,"Chatbot Development",2026-01-07
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",13812.68,INR,"Cybersecurity Audit",2025-11-15
+"Naveen Chopra","naveen.chopra55@gmail.com","Freelancer.com",11697.30,INR,"IoT Dashboard",2025-11-26
+"Naveen Chopra","naveen.chopra55@gmail.com","Fiverr",6226.06,INR,"Voice Over",2026-01-14
+"Naveen Chopra","naveen.chopra55@gmail.com","Fiverr",4640.20,INR,"Virtual Assistant",2025-09-10
+"Naveen Chopra","naveen.chopra55@gmail.com","Fiverr",15834.49,INR,"Whiteboard Animation",2026-01-11
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",19706.71,INR,"Code Review",2025-12-03
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",1064.28,INR,"React Frontend Build",2026-02-08
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",12927.92,INR,"Full Stack Project",2025-12-06
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",22083.12,INR,"Landing Page Design",2025-09-13
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",7286.21,INR,"Mobile App Development",2026-01-22
+"Kamini Grover","kamini.grover10@gmail.com","Upwork",19214.57,INR,"Bug Fix Sprint",2025-10-08
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Freelancer.com",864.34,INR,"Android App",2025-10-04
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Freelancer.com",10844.73,INR,"Payment Gateway Setup",2025-12-14
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Freelancer.com",6202.39,INR,"Game Development",2026-02-12
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Fiverr",7495.55,INR,"Graphic Design",2025-09-20
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Fiverr",15285.79,INR,"Photo Editing",2025-10-11
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Fiverr",20536.73,INR,"Translation Service",2025-12-08
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Fiverr",4002.15,INR,"Logo Design",2025-11-27
+"Vikram Chauhan","vikram.chauhan6@gmail.com","Fiverr",12567.00,INR,"Translation Service",2025-10-16
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",14592.74,INR,"IoT Dashboard",2025-09-25
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",17945.72,INR,"Blockchain Integration",2025-11-30
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",21516.19,INR,"Excel Automation",2026-03-06
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",13970.55,INR,"Python Script Development",2026-01-06
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",14708.67,INR,"Android App",2025-11-30
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",1435.88,INR,"Machine Learning Model",2025-09-23
+"Diya Rajput","diya.rajput37@gmail.com","Freelancer.com",21684.81,INR,"Game Development",2025-09-18
+"Diya Rajput","diya.rajput37@gmail.com","Fiverr",16445.58,INR,"Virtual Assistant",2026-01-14
+"Diya Rajput","diya.rajput37@gmail.com","Fiverr",24922.73,INR,"Voice Over",2025-12-25
+"Diya Rajput","diya.rajput37@gmail.com","Fiverr",21077.13,INR,"Graphic Design",2026-01-22
+"Diya Rajput","diya.rajput37@gmail.com","Upwork",5352.53,INR,"Web Development Project",2026-03-02
+"Diya Rajput","diya.rajput37@gmail.com","Upwork",3576.44,INR,"Database Optimization",2026-01-17
+"Diya Rajput","diya.rajput37@gmail.com","Upwork",3210.19,INR,"Code Review",2025-10-05
+"Diya Rajput","diya.rajput37@gmail.com","Upwork",10105.48,INR,"SEO Optimization",2025-12-13
+"Karan Mukherjee","karan.mukherjee81@gmail.com","Upwork",20032.15,INR,"WordPress Plugin",2025-12-11
+"Karan Mukherjee","karan.mukherjee81@gmail.com","Upwork",16974.16,INR,"Node.js Backend Service",2025-10-07
+"Karan Mukherjee","karan.mukherjee81@gmail.com","Upwork",16796.06,INR,"WordPress Plugin",2025-11-15
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Upwork",3729.72,INR,"React Frontend Build",2025-11-27
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Upwork",12539.29,INR,"Database Optimization",2025-11-06
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Upwork",4738.61,INR,"SEO Optimization",2025-09-21
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",9526.73,INR,"Whiteboard Animation",2025-11-24
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",15468.18,INR,"Virtual Assistant",2026-01-07
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",18029.38,INR,"Video Editing",2025-10-22
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",4470.53,INR,"Voice Over",2025-10-07
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",22093.89,INR,"Podcast Editing",2025-12-08
+"Sneha Chauhan","sneha.chauhan19@gmail.com","Fiverr",2135.78,INR,"Illustration",2026-02-18
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",10493.69,INR,"Cybersecurity Audit",2025-11-22
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",10151.04,INR,"Android App",2025-10-28
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",22627.82,INR,"Shopify Store Setup",2025-12-28
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",16940.96,INR,"Chatbot Development",2025-10-12
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",13523.81,INR,"IoT Dashboard",2025-09-26
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",10383.07,INR,"Chatbot Development",2026-01-09
+"Venkat Yadav","venkat.yadav33@gmail.com","Freelancer.com",6429.87,INR,"Excel Automation",2025-12-27
+"Venkat Yadav","venkat.yadav33@gmail.com","Fiverr",12301.75,INR,"Voice Over",2026-01-19
+"Venkat Yadav","venkat.yadav33@gmail.com","Fiverr",3217.10,INR,"Illustration",2026-01-14
+"Venkat Yadav","venkat.yadav33@gmail.com","Fiverr",4043.66,INR,"Graphic Design",2026-01-15
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",1370.06,INR,"Chatbot Development",2025-11-16
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",23968.12,INR,"IoT Dashboard",2025-12-08
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",19698.22,INR,"Data Analysis Report",2025-10-20
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",21082.44,INR,"Shopify Store Setup",2025-11-15
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",5375.41,INR,"Excel Automation",2025-10-18
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",23370.73,INR,"Game Development",2026-01-27
+"Rohan Chopra","rohan.chopra66@gmail.com","Freelancer.com",3113.22,INR,"Excel Automation",2026-01-30
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",14224.59,INR,"ERP Customization",2026-02-06
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",5484.23,INR,"IoT Dashboard",2025-11-18
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",5791.91,INR,"Machine Learning Model",2026-01-11
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",3503.05,INR,"IoT Dashboard",2025-10-18
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",22633.02,INR,"ERP Customization",2026-01-19
+"Neha Bhatia","neha.bhatia16@gmail.com","Freelancer.com",24603.20,INR,"Cloud Migration",2026-02-26
+"Neha Bhatia","neha.bhatia16@gmail.com","Upwork",2519.70,INR,"WordPress Plugin",2025-10-14
+"Neha Bhatia","neha.bhatia16@gmail.com","Upwork",10546.50,INR,"UI/UX Design Review",2025-11-24
+"Neha Bhatia","neha.bhatia16@gmail.com","Upwork",10834.85,INR,"Database Optimization",2025-09-23
+"Akash Yadav","akash.yadav19@gmail.com","Fiverr",18381.72,INR,"Video Editing",2025-12-18
+"Akash Yadav","akash.yadav19@gmail.com","Fiverr",15144.96,INR,"Illustration",2026-02-25
+"Akash Yadav","akash.yadav19@gmail.com","Fiverr",7805.21,INR,"Podcast Editing",2025-12-11
+"Akash Yadav","akash.yadav19@gmail.com","Fiverr",2086.45,INR,"Video Editing",2026-02-05
+"Akash Yadav","akash.yadav19@gmail.com","Fiverr",23505.74,INR,"Content Writing",2026-02-15
+"Gauri Tandon","gauri.tandon77@gmail.com","Freelancer.com",6543.06,INR,"Data Analysis Report",2025-12-01
+"Gauri Tandon","gauri.tandon77@gmail.com","Freelancer.com",18931.75,INR,"Cloud Migration",2025-09-21
+"Gauri Tandon","gauri.tandon77@gmail.com","Freelancer.com",20784.16,INR,"Android App",2025-11-21
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",8371.61,INR,"Resume Writing",2026-02-16
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",17563.67,INR,"Content Writing",2025-11-29
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",11196.57,INR,"Content Writing",2025-11-05
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",18594.50,INR,"Translation Service",2025-11-13
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",2012.02,INR,"Copywriting",2026-01-24
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",11174.08,INR,"Whiteboard Animation",2026-03-01
+"Gauri Tandon","gauri.tandon77@gmail.com","Fiverr",14077.64,INR,"Social Media Management",2026-02-04
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",9374.13,INR,"Bug Fix Sprint",2025-11-01
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",23577.57,INR,"WordPress Plugin",2025-10-19
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",23977.62,INR,"Landing Page Design",2026-01-01
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",9226.87,INR,"Full Stack Project",2025-10-30
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",21640.32,INR,"React Frontend Build",2026-02-16
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",16652.13,INR,"UI/UX Design Review",2025-11-08
+"Gauri Tandon","gauri.tandon77@gmail.com","Upwork",1028.50,INR,"Mobile App Development",2025-09-20
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Freelancer.com",17862.07,INR,"Blockchain Integration",2025-12-28
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Freelancer.com",24933.83,INR,"Blockchain Integration",2025-12-19
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Freelancer.com",24136.64,INR,"Excel Automation",2025-10-26
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Freelancer.com",20966.02,INR,"Chatbot Development",2025-11-02
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Freelancer.com",24871.40,INR,"IoT Dashboard",2025-09-30
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Fiverr",3441.98,INR,"Data Entry",2025-11-18
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Fiverr",5743.82,INR,"Resume Writing",2025-12-22
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Fiverr",19332.24,INR,"Video Editing",2025-09-11
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Fiverr",22492.53,INR,"Resume Writing",2025-11-30
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Fiverr",20857.00,INR,"Graphic Design",2026-02-16
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",13729.64,INR,"Bug Fix Sprint",2025-11-11
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",13426.06,INR,"React Frontend Build",2025-10-23
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",2186.96,INR,"DevOps Setup",2025-11-11
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",6443.69,INR,"Landing Page Design",2026-02-02
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",15212.54,INR,"Bug Fix Sprint",2025-09-26
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",2030.35,INR,"Landing Page Design",2025-12-29
+"Siddharth Iyer","siddharth.iyer53@gmail.com","Upwork",7741.68,INR,"SEO Optimization",2025-09-22
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",17477.09,INR,"Node.js Backend Service",2025-09-22
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",14661.37,INR,"SEO Optimization",2025-09-27
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",6053.88,INR,"Database Optimization",2025-10-30
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",16032.33,INR,"Landing Page Design",2025-11-10
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",15412.80,INR,"SEO Optimization",2025-09-19
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",3432.06,INR,"Node.js Backend Service",2026-02-13
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Upwork",20020.16,INR,"UI/UX Design Review",2026-01-13
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",16976.51,INR,"Voice Over",2025-12-01
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",14166.80,INR,"Translation Service",2026-01-24
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",12622.91,INR,"Translation Service",2025-10-15
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",2929.95,INR,"Data Entry",2025-09-24
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",11429.31,INR,"Resume Writing",2026-01-17
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",7677.16,INR,"Data Entry",2025-11-07
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Fiverr",5102.96,INR,"Whiteboard Animation",2025-10-13
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",16901.35,INR,"Payment Gateway Setup",2026-01-19
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",4794.78,INR,"Cloud Migration",2026-01-01
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",18313.21,INR,"Android App",2025-10-22
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",12400.71,INR,"ERP Customization",2025-12-19
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",19256.52,INR,"Cloud Migration",2025-11-10
+"Gauri Ahuja","gauri.ahuja12@gmail.com","Freelancer.com",20602.74,INR,"Cloud Migration",2025-11-18
+"Diya Khanna","diya.khanna66@gmail.com","Upwork",21447.50,INR,"Node.js Backend Service",2025-12-16
+"Diya Khanna","diya.khanna66@gmail.com","Upwork",18617.80,INR,"Full Stack Project",2026-02-15
+"Diya Khanna","diya.khanna66@gmail.com","Upwork",10334.49,INR,"Mobile App Development",2025-11-27
+"Diya Khanna","diya.khanna66@gmail.com","Fiverr",5000.38,INR,"Translation Service",2025-10-13
+"Diya Khanna","diya.khanna66@gmail.com","Fiverr",19077.25,INR,"Copywriting",2025-10-14
+"Diya Khanna","diya.khanna66@gmail.com","Fiverr",13057.71,INR,"Logo Design",2026-01-10
+"Diya Khanna","diya.khanna66@gmail.com","Fiverr",6665.81,INR,"Logo Design",2025-11-14
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Freelancer.com",6440.95,INR,"ETL Pipeline",2026-01-15
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Freelancer.com",19875.56,INR,"Cloud Migration",2025-09-30
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Freelancer.com",12027.57,INR,"ERP Customization",2026-01-22
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",18050.30,INR,"Landing Page Design",2026-02-13
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",21846.01,INR,"React Frontend Build",2026-01-09
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",12066.76,INR,"Mobile App Development",2026-03-06
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",18471.73,INR,"WordPress Plugin",2025-11-23
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",17386.81,INR,"DevOps Setup",2025-10-13
+"Dhruv Mishra","dhruv.mishra29@gmail.com","Upwork",11141.94,INR,"Landing Page Design",2026-02-03
+"Vishal Thakur","vishal.thakur61@gmail.com","Fiverr",23705.82,INR,"Graphic Design",2026-02-09
+"Vishal Thakur","vishal.thakur61@gmail.com","Fiverr",1832.09,INR,"Copywriting",2025-11-09
+"Vishal Thakur","vishal.thakur61@gmail.com","Fiverr",8641.37,INR,"Social Media Management",2026-01-26
+"Vishal Thakur","vishal.thakur61@gmail.com","Fiverr",7268.15,INR,"Social Media Management",2025-12-28
+"Vishal Thakur","vishal.thakur61@gmail.com","Fiverr",23019.57,INR,"Podcast Editing",2025-11-29
+"Damini Mukherjee","damini.mukherjee34@gmail.com","Freelancer.com",3216.57,INR,"Blockchain Integration",2025-11-05
+"Damini Mukherjee","damini.mukherjee34@gmail.com","Freelancer.com",7353.37,INR,"Python Script Development",2025-11-27
+"Damini Mukherjee","damini.mukherjee34@gmail.com","Freelancer.com",3567.48,INR,"Python Script Development",2025-09-13
+"Damini Mukherjee","damini.mukherjee34@gmail.com","Freelancer.com",23978.05,INR,"Cloud Migration",2025-10-16
+"Namita Srivastava","namita.srivastava81@gmail.com","Upwork",21675.66,INR,"Node.js Backend Service",2026-03-03
+"Namita Srivastava","namita.srivastava81@gmail.com","Upwork",4580.50,INR,"Bug Fix Sprint",2025-12-21
+"Namita Srivastava","namita.srivastava81@gmail.com","Upwork",10451.47,INR,"Code Review",2025-12-25
+"Namita Srivastava","namita.srivastava81@gmail.com","Upwork",20398.59,INR,"Mobile App Development",2026-01-04
+"Namita Srivastava","namita.srivastava81@gmail.com","Upwork",10479.05,INR,"Database Optimization",2025-10-21
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Upwork",14285.56,INR,"Mobile App Development",2026-02-28
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Upwork",9619.30,INR,"Database Optimization",2025-09-24
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Upwork",1254.95,INR,"Bug Fix Sprint",2025-12-14
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",14987.09,INR,"Virtual Assistant",2026-02-19
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",8964.31,INR,"Video Editing",2025-11-27
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",5860.73,INR,"Podcast Editing",2025-12-04
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",8255.05,INR,"Translation Service",2025-10-05
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",588.64,INR,"Podcast Editing",2026-01-12
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",11928.47,INR,"Resume Writing",2026-02-18
+"Ishaan Mishra","ishaan.mishra8@gmail.com","Fiverr",11169.08,INR,"Whiteboard Animation",2025-09-26
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",13098.70,INR,"Cloud Migration",2026-01-05
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",12496.02,INR,"Machine Learning Model",2026-01-24
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",22767.36,INR,"Blockchain Integration",2025-10-17
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",21175.64,INR,"IoT Dashboard",2025-09-15
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",5647.80,INR,"Android App",2026-01-29
+"Neha Jain","neha.jain22@gmail.com","Freelancer.com",22765.83,INR,"Payment Gateway Setup",2026-02-28
+"Neha Jain","neha.jain22@gmail.com","Fiverr",18404.76,INR,"Virtual Assistant",2025-12-06
+"Neha Jain","neha.jain22@gmail.com","Fiverr",5296.39,INR,"Logo Design",2025-11-04
+"Neha Jain","neha.jain22@gmail.com","Fiverr",10928.73,INR,"Voice Over",2026-01-19
+"Neha Jain","neha.jain22@gmail.com","Fiverr",24933.75,INR,"Virtual Assistant",2026-01-27
+"Neha Jain","neha.jain22@gmail.com","Fiverr",16095.93,INR,"Illustration",2025-12-28
+"Neha Jain","neha.jain22@gmail.com","Fiverr",10497.86,INR,"Whiteboard Animation",2026-01-21
+"Neha Jain","neha.jain22@gmail.com","Fiverr",9411.03,INR,"Video Editing",2025-11-15
+"Neha Jain","neha.jain22@gmail.com","Upwork",15708.44,INR,"Database Optimization",2026-01-28
+"Neha Jain","neha.jain22@gmail.com","Upwork",23639.87,INR,"Bug Fix Sprint",2025-09-30
+"Neha Jain","neha.jain22@gmail.com","Upwork",10216.17,INR,"DevOps Setup",2025-09-14
+"Neha Jain","neha.jain22@gmail.com","Upwork",1431.29,INR,"Full Stack Project",2026-01-31
+"Neha Jain","neha.jain22@gmail.com","Upwork",11948.40,INR,"Code Review",2025-11-13
+"Neha Jain","neha.jain22@gmail.com","Upwork",8579.91,INR,"Bug Fix Sprint",2025-09-16
+"Neha Jain","neha.jain22@gmail.com","Upwork",15304.66,INR,"Landing Page Design",2025-12-29
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",23964.91,INR,"Blockchain Integration",2025-12-10
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",17609.25,INR,"Chatbot Development",2026-01-14
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",2419.01,INR,"ERP Customization",2025-09-20
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",864.07,INR,"Android App",2025-11-17
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",11215.38,INR,"ERP Customization",2026-02-01
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",3359.58,INR,"Data Analysis Report",2025-10-30
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",3297.81,INR,"Android App",2025-12-12
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Freelancer.com",11941.15,INR,"ERP Customization",2025-09-12
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",9049.84,INR,"SEO Optimization",2025-10-24
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",12277.32,INR,"Node.js Backend Service",2025-10-21
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",12056.74,INR,"SEO Optimization",2026-01-09
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",17366.28,INR,"Node.js Backend Service",2025-09-29
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",24849.47,INR,"WordPress Plugin",2025-12-26
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",24097.10,INR,"DevOps Setup",2026-01-14
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Upwork",562.68,INR,"UI/UX Design Review",2026-02-26
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",22778.51,INR,"Voice Over",2026-01-10
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",17701.69,INR,"Photo Editing",2025-11-04
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",550.56,INR,"Data Entry",2026-01-15
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",24103.99,INR,"Translation Service",2026-02-01
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",1071.77,INR,"Content Writing",2025-10-10
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",21274.60,INR,"Voice Over",2025-11-16
+"Manoj Dhawan","manoj.dhawan94@gmail.com","Fiverr",17514.84,INR,"Social Media Management",2026-02-21
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",7954.84,INR,"Video Editing",2025-11-22
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",876.08,INR,"Graphic Design",2026-02-19
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",12018.25,INR,"Illustration",2025-10-27
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",18083.81,INR,"Podcast Editing",2025-09-20
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",4354.88,INR,"Content Writing",2025-11-05
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Fiverr",13233.25,INR,"Social Media Management",2025-10-03
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",9741.54,INR,"Cloud Migration",2025-11-24
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",9376.75,INR,"Python Script Development",2025-10-04
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",23583.59,INR,"ETL Pipeline",2026-02-25
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",1513.93,INR,"Data Analysis Report",2026-02-04
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",7712.87,INR,"Blockchain Integration",2025-10-28
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",15662.87,INR,"Cybersecurity Audit",2026-02-07
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Freelancer.com",22067.30,INR,"Data Analysis Report",2025-12-23
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",8863.53,INR,"DevOps Setup",2025-12-23
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",22001.63,INR,"Landing Page Design",2025-10-31
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",7342.25,INR,"Full Stack Project",2025-12-02
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",8811.64,INR,"DevOps Setup",2026-02-06
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",4620.19,INR,"Database Optimization",2025-09-26
+"Janaki Mukherjee","janaki.mukherjee78@gmail.com","Upwork",8518.99,INR,"UI/UX Design Review",2026-02-17
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",16115.75,INR,"Mobile App Development",2026-02-05
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",986.10,INR,"Database Optimization",2025-11-03
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",4446.88,INR,"DevOps Setup",2025-09-19
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",2444.61,INR,"Technical Writing",2026-01-18
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",22563.40,INR,"Bug Fix Sprint",2025-09-21
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",9214.84,INR,"Mobile App Development",2026-02-20
+"Jaya Joshi","jaya.joshi42@gmail.com","Upwork",13630.00,INR,"Mobile App Development",2025-12-27
+"Jaya Joshi","jaya.joshi42@gmail.com","Fiverr",11188.18,INR,"Graphic Design",2025-11-07
+"Jaya Joshi","jaya.joshi42@gmail.com","Fiverr",17476.18,INR,"Whiteboard Animation",2026-02-20
+"Jaya Joshi","jaya.joshi42@gmail.com","Fiverr",24431.33,INR,"Video Editing",2026-02-03
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",12575.51,INR,"Machine Learning Model",2025-12-20
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",3643.83,INR,"Shopify Store Setup",2025-12-21
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",11104.43,INR,"Excel Automation",2026-01-30
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",3440.62,INR,"Shopify Store Setup",2025-09-17
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",10276.11,INR,"Chatbot Development",2025-12-20
+"Siddharth Shah","siddharth.shah96@gmail.com","Freelancer.com",17568.07,INR,"ETL Pipeline",2025-09-19
+"Riya Mishra","riya.mishra2@gmail.com","Upwork",13800.58,INR,"Technical Writing",2025-11-23
+"Riya Mishra","riya.mishra2@gmail.com","Upwork",16330.18,INR,"React Frontend Build",2026-02-10
+"Riya Mishra","riya.mishra2@gmail.com","Upwork",12063.84,INR,"WordPress Plugin",2025-10-06
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",19829.02,INR,"Shopify Store Setup",2025-11-04
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",18718.57,INR,"Python Script Development",2025-10-17
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",24688.02,INR,"Machine Learning Model",2026-01-10
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",2737.90,INR,"Machine Learning Model",2026-01-30
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",17597.55,INR,"Cloud Migration",2026-01-08
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",8717.01,INR,"ETL Pipeline",2025-11-07
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",3361.13,INR,"Cybersecurity Audit",2025-09-21
+"Bhavna Jain","bhavna.jain73@gmail.com","Freelancer.com",3936.50,INR,"Payment Gateway Setup",2025-10-01
+"Bhavna Jain","bhavna.jain73@gmail.com","Fiverr",5781.97,INR,"Graphic Design",2025-11-24
+"Bhavna Jain","bhavna.jain73@gmail.com","Fiverr",5485.93,INR,"Graphic Design",2026-01-11
+"Bhavna Jain","bhavna.jain73@gmail.com","Fiverr",19595.24,INR,"Copywriting",2025-12-14
+"Bhavna Jain","bhavna.jain73@gmail.com","Fiverr",8363.26,INR,"Video Editing",2025-09-26
+"Bhavna Jain","bhavna.jain73@gmail.com","Upwork",20885.34,INR,"Landing Page Design",2025-10-24
+"Bhavna Jain","bhavna.jain73@gmail.com","Upwork",13656.98,INR,"Bug Fix Sprint",2025-10-04
+"Bhavna Jain","bhavna.jain73@gmail.com","Upwork",7698.45,INR,"SEO Optimization",2026-02-04
+"Bhavna Jain","bhavna.jain73@gmail.com","Upwork",1233.14,INR,"Code Review",2025-11-20
+"Bhavna Jain","bhavna.jain73@gmail.com","Upwork",15654.08,INR,"Mobile App Development",2026-02-03
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",18048.84,INR,"Blockchain Integration",2025-11-01
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",2069.36,INR,"Chatbot Development",2025-10-24
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",11767.32,INR,"Excel Automation",2025-11-05
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",14995.10,INR,"Python Script Development",2026-01-31
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",17427.64,INR,"Machine Learning Model",2025-09-25
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",14622.93,INR,"ETL Pipeline",2025-11-11
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",1990.24,INR,"ETL Pipeline",2025-10-17
+"Chitra Khanna","chitra.khanna3@gmail.com","Freelancer.com",10612.25,INR,"Blockchain Integration",2026-01-29
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",3371.83,INR,"Resume Writing",2025-10-13
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",7190.29,INR,"Voice Over",2025-12-15
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",4706.10,INR,"Logo Design",2026-01-04
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",18489.64,INR,"Graphic Design",2025-11-03
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",19221.79,INR,"Podcast Editing",2025-10-03
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",21002.92,INR,"Podcast Editing",2025-12-17
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",22169.86,INR,"Voice Over",2025-12-23
+"Chitra Khanna","chitra.khanna3@gmail.com","Fiverr",17228.14,INR,"Whiteboard Animation",2026-01-25
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",18565.16,INR,"ETL Pipeline",2025-10-09
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",4858.76,INR,"Data Analysis Report",2025-12-22
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",20942.73,INR,"Game Development",2026-01-20
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",1414.94,INR,"Chatbot Development",2025-11-16
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",610.89,INR,"Payment Gateway Setup",2025-11-15
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",16475.72,INR,"Game Development",2025-11-14
+"Nisha Arora","nisha.arora80@gmail.com","Freelancer.com",13909.42,INR,"Game Development",2025-10-06
+"Venkat Iyer","venkat.iyer69@gmail.com","Upwork",21123.53,INR,"Code Review",2025-09-11
+"Venkat Iyer","venkat.iyer69@gmail.com","Upwork",8959.32,INR,"API Integration",2025-10-16
+"Venkat Iyer","venkat.iyer69@gmail.com","Upwork",12081.27,INR,"Mobile App Development",2026-01-18
+"Venkat Iyer","venkat.iyer69@gmail.com","Upwork",3372.56,INR,"API Integration",2026-02-19
+"Venkat Iyer","venkat.iyer69@gmail.com","Upwork",17039.72,INR,"Bug Fix Sprint",2025-12-03
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",17562.30,INR,"Python Script Development",2025-11-11
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",6708.52,INR,"Chatbot Development",2025-10-14
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",17704.50,INR,"Data Analysis Report",2025-11-23
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",15959.19,INR,"Android App",2025-10-04
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",21065.66,INR,"Cloud Migration",2026-01-14
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",20499.19,INR,"Machine Learning Model",2026-01-09
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Freelancer.com",11253.75,INR,"Cloud Migration",2025-10-04
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",10427.68,INR,"Social Media Management",2026-03-05
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",23104.04,INR,"Illustration",2025-12-13
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",7723.81,INR,"Voice Over",2025-12-25
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",24084.85,INR,"Virtual Assistant",2026-02-04
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",18298.12,INR,"Photo Editing",2026-02-23
+"Chandan Deshmukh","chandan.deshmukh86@gmail.com","Fiverr",12745.38,INR,"Graphic Design",2026-01-19
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",23167.54,INR,"Shopify Store Setup",2026-02-26
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",14852.16,INR,"IoT Dashboard",2026-02-03
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",17810.07,INR,"Game Development",2026-01-09
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",8497.26,INR,"Android App",2025-10-27
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",1443.92,INR,"Cybersecurity Audit",2026-03-06
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Freelancer.com",11446.54,INR,"Shopify Store Setup",2026-02-16
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",20661.11,INR,"React Frontend Build",2025-09-29
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",14909.41,INR,"Landing Page Design",2025-10-20
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",21361.24,INR,"UI/UX Design Review",2026-03-02
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",6524.05,INR,"Full Stack Project",2026-01-07
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",22842.56,INR,"Web Development Project",2026-01-25
+"Kavya Chauhan","kavya.chauhan62@gmail.com","Upwork",10605.80,INR,"React Frontend Build",2026-02-05
+"Padma Patil","padma.patil88@gmail.com","Upwork",23705.94,INR,"Code Review",2025-12-22
+"Padma Patil","padma.patil88@gmail.com","Upwork",18424.48,INR,"WordPress Plugin",2026-02-11
+"Padma Patil","padma.patil88@gmail.com","Upwork",23930.80,INR,"API Integration",2025-12-18
+"Padma Patil","padma.patil88@gmail.com","Upwork",9825.10,INR,"Landing Page Design",2026-01-09
+"Padma Patil","padma.patil88@gmail.com","Upwork",19741.25,INR,"Technical Writing",2025-11-01
+"Padma Patil","padma.patil88@gmail.com","Freelancer.com",12122.49,INR,"Android App",2026-01-15
+"Padma Patil","padma.patil88@gmail.com","Freelancer.com",13252.75,INR,"Blockchain Integration",2025-10-24
+"Padma Patil","padma.patil88@gmail.com","Freelancer.com",8184.17,INR,"Game Development",2026-03-01
+"Padma Patil","padma.patil88@gmail.com","Fiverr",7792.12,INR,"Logo Design",2025-10-30
+"Padma Patil","padma.patil88@gmail.com","Fiverr",6235.82,INR,"Logo Design",2026-01-15
+"Padma Patil","padma.patil88@gmail.com","Fiverr",23005.86,INR,"Copywriting",2026-01-10
+"Padma Patil","padma.patil88@gmail.com","Fiverr",17256.56,INR,"Virtual Assistant",2026-01-24
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",8651.02,INR,"Game Development",2026-03-02
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",22816.88,INR,"Excel Automation",2025-10-12
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",4925.16,INR,"Chatbot Development",2025-12-12
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",10764.42,INR,"Shopify Store Setup",2025-10-28
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",5846.53,INR,"Blockchain Integration",2025-10-19
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",10928.55,INR,"Blockchain Integration",2026-02-10
+"Falguni Gupta","falguni.gupta93@gmail.com","Freelancer.com",5555.10,INR,"Blockchain Integration",2025-11-22
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",22016.13,INR,"Code Review",2025-12-15
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",16296.70,INR,"Full Stack Project",2025-10-10
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",4091.95,INR,"React Frontend Build",2025-11-01
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",8051.06,INR,"DevOps Setup",2026-03-01
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",14646.31,INR,"Technical Writing",2025-09-12
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",22319.84,INR,"Landing Page Design",2025-10-28
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",17197.78,INR,"DevOps Setup",2026-01-04
+"Aditya Chadha","aditya.chadha43@gmail.com","Upwork",4229.64,INR,"Code Review",2025-11-08
+"Aditya Chadha","aditya.chadha43@gmail.com","Fiverr",7823.90,INR,"Voice Over",2025-12-17
+"Aditya Chadha","aditya.chadha43@gmail.com","Fiverr",18008.29,INR,"Translation Service",2025-10-10
+"Aditya Chadha","aditya.chadha43@gmail.com","Fiverr",13235.57,INR,"Content Writing",2026-01-27
+"Aditya Chadha","aditya.chadha43@gmail.com","Fiverr",21902.30,INR,"Graphic Design",2025-12-07
+"Aditya Chadha","aditya.chadha43@gmail.com","Fiverr",15612.60,INR,"Data Entry",2025-09-23
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Freelancer.com",17018.63,INR,"ERP Customization",2025-10-11
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Freelancer.com",16698.29,INR,"ETL Pipeline",2025-11-27
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Freelancer.com",11068.50,INR,"Cloud Migration",2026-02-21
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Freelancer.com",15220.66,INR,"Python Script Development",2025-12-15
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Fiverr",12833.82,INR,"Resume Writing",2025-11-19
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Fiverr",24484.08,INR,"Virtual Assistant",2025-10-25
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Fiverr",13692.78,INR,"Copywriting",2025-10-01
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Fiverr",4445.63,INR,"Data Entry",2025-12-15
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Fiverr",20243.22,INR,"Logo Design",2025-11-06
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Upwork",21979.28,INR,"DevOps Setup",2026-02-08
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Upwork",8468.27,INR,"Technical Writing",2026-02-06
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Upwork",9290.79,INR,"Database Optimization",2026-01-22
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Upwork",19309.09,INR,"Landing Page Design",2025-10-25
+"Gauri Mukherjee","gauri.mukherjee27@gmail.com","Upwork",21803.48,INR,"Web Development Project",2025-10-04
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Upwork",14353.98,INR,"SEO Optimization",2025-12-18
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Upwork",8930.03,INR,"WordPress Plugin",2025-12-14
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Upwork",19725.04,INR,"Technical Writing",2025-09-23
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Upwork",7367.46,INR,"Technical Writing",2026-01-08
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Upwork",18659.25,INR,"Node.js Backend Service",2026-02-20
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",24983.59,INR,"Cloud Migration",2026-02-16
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",1331.71,INR,"Python Script Development",2026-02-26
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",24760.35,INR,"Data Analysis Report",2025-09-09
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",15977.28,INR,"Android App",2026-01-18
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",5889.12,INR,"Cybersecurity Audit",2026-02-23
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Freelancer.com",2752.85,INR,"Cybersecurity Audit",2025-11-23
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Fiverr",674.79,INR,"Social Media Management",2026-01-01
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Fiverr",24462.35,INR,"Voice Over",2025-10-10
+"Siddharth Gupta","siddharth.gupta79@gmail.com","Fiverr",11306.70,INR,"Video Editing",2025-12-02
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Fiverr",6043.39,INR,"Photo Editing",2026-01-09
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Fiverr",23616.41,INR,"Video Editing",2026-02-07
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Fiverr",3904.67,INR,"Translation Service",2026-02-07
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Fiverr",3348.80,INR,"Whiteboard Animation",2025-11-09
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Fiverr",8040.52,INR,"Translation Service",2025-12-17
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",8959.37,INR,"Web Development Project",2026-01-27
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",22594.67,INR,"Database Optimization",2025-10-02
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",16337.04,INR,"WordPress Plugin",2026-02-01
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",5375.26,INR,"React Frontend Build",2025-09-21
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",3965.44,INR,"React Frontend Build",2026-02-09
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",12652.12,INR,"Bug Fix Sprint",2025-12-21
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Upwork",6460.11,INR,"Node.js Backend Service",2025-12-31
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",3495.30,INR,"Payment Gateway Setup",2025-11-12
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",13365.72,INR,"ETL Pipeline",2026-01-26
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",17304.24,INR,"ETL Pipeline",2026-01-07
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",18987.23,INR,"Shopify Store Setup",2025-09-14
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",2774.75,INR,"ETL Pipeline",2025-10-04
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",8878.92,INR,"Chatbot Development",2026-02-19
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",6819.88,INR,"Blockchain Integration",2025-12-07
+"Tarun Srivastava","tarun.srivastava3@gmail.com","Freelancer.com",10462.08,INR,"Game Development",2025-09-27
+"Meera Mehta","meera.mehta30@gmail.com","Fiverr",10435.53,INR,"Logo Design",2025-11-28
+"Meera Mehta","meera.mehta30@gmail.com","Fiverr",22839.76,INR,"Copywriting",2026-02-21
+"Meera Mehta","meera.mehta30@gmail.com","Fiverr",4999.69,INR,"Resume Writing",2025-11-26
+"Meera Mehta","meera.mehta30@gmail.com","Fiverr",21879.32,INR,"Social Media Management",2026-02-15
+"Meera Mehta","meera.mehta30@gmail.com","Fiverr",16876.88,INR,"Virtual Assistant",2025-12-24
+"Venkat Joshi","venkat.joshi75@gmail.com","Freelancer.com",10546.98,INR,"Cybersecurity Audit",2026-01-26
+"Venkat Joshi","venkat.joshi75@gmail.com","Freelancer.com",19824.85,INR,"Game Development",2025-12-30
+"Venkat Joshi","venkat.joshi75@gmail.com","Freelancer.com",3236.25,INR,"Blockchain Integration",2025-12-08
+"Venkat Joshi","venkat.joshi75@gmail.com","Freelancer.com",6337.91,INR,"Data Analysis Report",2025-11-27
+"Venkat Joshi","venkat.joshi75@gmail.com","Freelancer.com",19891.74,INR,"IoT Dashboard",2025-09-24
+"Venkat Joshi","venkat.joshi75@gmail.com","Upwork",16004.98,INR,"Mobile App Development",2025-11-08
+"Venkat Joshi","venkat.joshi75@gmail.com","Upwork",14241.44,INR,"Technical Writing",2025-11-07
+"Venkat Joshi","venkat.joshi75@gmail.com","Upwork",23809.82,INR,"Database Optimization",2025-09-28
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Upwork",19701.40,INR,"Web Development Project",2025-11-23
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Upwork",15637.10,INR,"Technical Writing",2025-11-13
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Upwork",4810.99,INR,"SEO Optimization",2026-03-07
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Fiverr",14653.26,INR,"Data Entry",2025-10-31
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Fiverr",7250.10,INR,"Copywriting",2025-10-02
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Fiverr",20069.81,INR,"Social Media Management",2026-01-22
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Fiverr",11578.42,INR,"Logo Design",2025-10-28
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Freelancer.com",12843.59,INR,"Excel Automation",2025-10-23
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Freelancer.com",9103.18,INR,"IoT Dashboard",2025-10-04
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Freelancer.com",9490.52,INR,"Python Script Development",2025-09-21
+"Aditya Deshmukh","aditya.deshmukh34@gmail.com","Freelancer.com",9847.29,INR,"Android App",2026-01-25
+"Megha Tandon","megha.tandon49@gmail.com","Upwork",4923.87,INR,"Database Optimization",2026-03-05
+"Megha Tandon","megha.tandon49@gmail.com","Upwork",2875.53,INR,"SEO Optimization",2025-10-30
+"Megha Tandon","megha.tandon49@gmail.com","Upwork",9743.77,INR,"SEO Optimization",2025-12-06
+"Megha Tandon","megha.tandon49@gmail.com","Upwork",23232.77,INR,"DevOps Setup",2025-10-14
+"Megha Tandon","megha.tandon49@gmail.com","Upwork",17926.87,INR,"SEO Optimization",2026-01-25
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",21897.01,INR,"Resume Writing",2026-02-21
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",13432.68,INR,"Whiteboard Animation",2025-10-03
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",16682.97,INR,"Graphic Design",2025-09-17
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",5696.57,INR,"Illustration",2026-02-06
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",4890.10,INR,"Copywriting",2026-01-14
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",8521.08,INR,"Graphic Design",2025-12-18
+"Megha Tandon","megha.tandon49@gmail.com","Fiverr",18159.16,INR,"Logo Design",2025-09-20
+"Megha Tandon","megha.tandon49@gmail.com","Freelancer.com",8136.91,INR,"Machine Learning Model",2025-09-13
+"Megha Tandon","megha.tandon49@gmail.com","Freelancer.com",10128.38,INR,"Python Script Development",2025-10-19
+"Megha Tandon","megha.tandon49@gmail.com","Freelancer.com",2893.71,INR,"Python Script Development",2026-02-25
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Fiverr",2088.19,INR,"Illustration",2026-02-20
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Fiverr",7150.18,INR,"Data Entry",2025-12-19
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Fiverr",4695.32,INR,"Whiteboard Animation",2025-12-18
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",23048.82,INR,"Full Stack Project",2025-10-01
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",16454.91,INR,"WordPress Plugin",2025-10-18
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",20666.12,INR,"Full Stack Project",2025-09-12
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",15611.43,INR,"Node.js Backend Service",2025-10-19
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",20284.56,INR,"Full Stack Project",2026-02-11
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Upwork",4218.23,INR,"Mobile App Development",2025-12-05
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",11969.22,INR,"Payment Gateway Setup",2025-12-02
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",20657.68,INR,"Cybersecurity Audit",2026-02-20
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",12022.27,INR,"Cloud Migration",2025-10-05
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",10786.06,INR,"Payment Gateway Setup",2026-02-17
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",12885.71,INR,"Data Analysis Report",2025-09-21
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",23452.08,INR,"Machine Learning Model",2025-10-22
+"Umesh Mukherjee","umesh.mukherjee96@gmail.com","Freelancer.com",18382.48,INR,"Shopify Store Setup",2025-12-24
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Upwork",18781.05,INR,"Technical Writing",2025-11-24
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Upwork",22538.36,INR,"API Integration",2025-09-12
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Upwork",18827.75,INR,"DevOps Setup",2025-10-27
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Upwork",18590.57,INR,"Technical Writing",2025-11-20
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Upwork",11373.96,INR,"UI/UX Design Review",2025-12-21
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",8180.87,INR,"Whiteboard Animation",2026-03-03
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",14696.25,INR,"Translation Service",2025-09-16
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",21540.19,INR,"Whiteboard Animation",2025-12-29
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",14023.47,INR,"Photo Editing",2026-01-29
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",6116.69,INR,"Voice Over",2026-01-18
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",10245.05,INR,"Social Media Management",2026-01-22
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",17979.83,INR,"Virtual Assistant",2025-10-12
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Fiverr",12780.00,INR,"Photo Editing",2025-12-08
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",23098.03,INR,"Data Analysis Report",2025-10-20
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",1087.30,INR,"Shopify Store Setup",2025-10-14
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",12718.53,INR,"Python Script Development",2026-02-10
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",11043.53,INR,"IoT Dashboard",2025-12-14
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",15782.18,INR,"Cybersecurity Audit",2026-03-01
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",18086.21,INR,"IoT Dashboard",2025-11-10
+"Gauri Dhawan","gauri.dhawan51@gmail.com","Freelancer.com",18432.45,INR,"Android App",2026-01-08
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",15877.34,INR,"Code Review",2026-03-02
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",23934.60,INR,"Technical Writing",2025-10-26
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",22006.65,INR,"Database Optimization",2025-11-14
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",3776.52,INR,"Web Development Project",2025-10-21
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",2054.59,INR,"Technical Writing",2026-01-31
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",17868.83,INR,"Full Stack Project",2026-02-01
+"Divya Chauhan","divya.chauhan54@gmail.com","Upwork",9524.39,INR,"DevOps Setup",2025-11-06
+"Divya Chauhan","divya.chauhan54@gmail.com","Fiverr",10429.12,INR,"Virtual Assistant",2026-01-31
+"Divya Chauhan","divya.chauhan54@gmail.com","Fiverr",8562.72,INR,"Data Entry",2025-09-26
+"Divya Chauhan","divya.chauhan54@gmail.com","Fiverr",5138.05,INR,"Social Media Management",2025-09-27
+"Divya Chauhan","divya.chauhan54@gmail.com","Fiverr",2970.64,INR,"Translation Service",2026-01-02
+"Divya Chauhan","divya.chauhan54@gmail.com","Fiverr",7136.06,INR,"Social Media Management",2025-09-26
+"Divya Chauhan","divya.chauhan54@gmail.com","Freelancer.com",13045.34,INR,"Android App",2026-03-07
+"Divya Chauhan","divya.chauhan54@gmail.com","Freelancer.com",22480.62,INR,"Android App",2025-09-25
+"Divya Chauhan","divya.chauhan54@gmail.com","Freelancer.com",23597.98,INR,"Machine Learning Model",2026-01-17
+"Ekta Bose","ekta.bose36@gmail.com","Freelancer.com",23652.84,INR,"Cloud Migration",2026-01-06
+"Ekta Bose","ekta.bose36@gmail.com","Freelancer.com",5652.57,INR,"Payment Gateway Setup",2026-01-30
+"Ekta Bose","ekta.bose36@gmail.com","Freelancer.com",18668.11,INR,"IoT Dashboard",2025-11-08
+"Ekta Bose","ekta.bose36@gmail.com","Fiverr",17266.21,INR,"Whiteboard Animation",2026-03-06
+"Ekta Bose","ekta.bose36@gmail.com","Fiverr",24707.50,INR,"Video Editing",2025-09-22
+"Ekta Bose","ekta.bose36@gmail.com","Fiverr",9156.82,INR,"Virtual Assistant",2025-12-18
+"Ekta Bose","ekta.bose36@gmail.com","Fiverr",18954.87,INR,"Content Writing",2025-12-03
+"Ekta Bose","ekta.bose36@gmail.com","Fiverr",4423.23,INR,"Social Media Management",2025-11-26
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",23262.77,INR,"Landing Page Design",2025-10-11
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",15600.41,INR,"API Integration",2025-12-11
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",19286.32,INR,"Full Stack Project",2026-01-09
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",12700.55,INR,"SEO Optimization",2025-11-06
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",24030.90,INR,"Technical Writing",2026-01-19
+"Ekta Bose","ekta.bose36@gmail.com","Upwork",17180.65,INR,"WordPress Plugin",2025-11-21
+"Sneha Khanna","sneha.khanna80@gmail.com","Upwork",23263.58,INR,"Full Stack Project",2025-11-17
+"Sneha Khanna","sneha.khanna80@gmail.com","Upwork",1125.60,INR,"WordPress Plugin",2025-12-06
+"Sneha Khanna","sneha.khanna80@gmail.com","Upwork",8330.33,INR,"Code Review",2025-11-18
+"Sneha Khanna","sneha.khanna80@gmail.com","Upwork",11135.51,INR,"Bug Fix Sprint",2025-09-11
+"Sneha Khanna","sneha.khanna80@gmail.com","Fiverr",2361.20,INR,"Translation Service",2025-11-01
+"Sneha Khanna","sneha.khanna80@gmail.com","Fiverr",20365.81,INR,"Translation Service",2025-11-01
+"Sneha Khanna","sneha.khanna80@gmail.com","Fiverr",7619.61,INR,"Translation Service",2025-10-20
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",23655.30,INR,"WordPress Plugin",2025-10-18
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",20848.29,INR,"Web Development Project",2026-01-28
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",12170.05,INR,"API Integration",2025-12-02
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",11241.02,INR,"DevOps Setup",2026-01-11
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",815.67,INR,"Mobile App Development",2025-10-21
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",15011.39,INR,"WordPress Plugin",2025-11-18
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",4919.04,INR,"SEO Optimization",2026-01-28
+"Umesh Chopra","umesh.chopra68@gmail.com","Upwork",11105.09,INR,"SEO Optimization",2026-01-18
+"Varun Rajput","varun.rajput96@gmail.com","Freelancer.com",2679.56,INR,"Machine Learning Model",2026-02-05
+"Varun Rajput","varun.rajput96@gmail.com","Freelancer.com",21173.69,INR,"Game Development",2025-10-16
+"Varun Rajput","varun.rajput96@gmail.com","Freelancer.com",4530.71,INR,"Machine Learning Model",2026-01-19
+"Varun Rajput","varun.rajput96@gmail.com","Freelancer.com",24537.76,INR,"IoT Dashboard",2025-11-13
+"Varun Rajput","varun.rajput96@gmail.com","Freelancer.com",2935.59,INR,"Cybersecurity Audit",2025-09-16
+"Varun Rajput","varun.rajput96@gmail.com","Fiverr",15435.57,INR,"Video Editing",2025-09-25
+"Varun Rajput","varun.rajput96@gmail.com","Fiverr",6385.56,INR,"Video Editing",2025-12-30
+"Varun Rajput","varun.rajput96@gmail.com","Fiverr",17793.49,INR,"Video Editing",2026-01-26
+"Varun Rajput","varun.rajput96@gmail.com","Fiverr",2171.42,INR,"Podcast Editing",2025-11-11
+"Deepak Nair","deepak.nair28@gmail.com","Upwork",23808.07,INR,"Node.js Backend Service",2026-03-04
+"Deepak Nair","deepak.nair28@gmail.com","Upwork",23030.69,INR,"React Frontend Build",2025-09-12
+"Deepak Nair","deepak.nair28@gmail.com","Upwork",24887.04,INR,"Technical Writing",2025-09-21
+"Deepak Nair","deepak.nair28@gmail.com","Fiverr",690.71,INR,"Photo Editing",2025-12-28
+"Deepak Nair","deepak.nair28@gmail.com","Fiverr",3947.98,INR,"Social Media Management",2025-09-14
+"Deepak Nair","deepak.nair28@gmail.com","Fiverr",8030.83,INR,"Social Media Management",2026-02-07
+"Deepak Nair","deepak.nair28@gmail.com","Fiverr",24690.56,INR,"Podcast Editing",2025-09-17
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",16756.97,INR,"Cybersecurity Audit",2025-10-09
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",3520.66,INR,"Chatbot Development",2026-01-19
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",24883.13,INR,"Chatbot Development",2025-12-21
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",19069.38,INR,"IoT Dashboard",2025-10-03
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",6789.16,INR,"Shopify Store Setup",2025-10-21
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",1892.96,INR,"Excel Automation",2025-12-28
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",11850.46,INR,"Excel Automation",2025-09-23
+"Deepak Nair","deepak.nair28@gmail.com","Freelancer.com",4690.40,INR,"Cybersecurity Audit",2025-09-25
+"Rajesh Bose","rajesh.bose20@gmail.com","Freelancer.com",16329.67,INR,"IoT Dashboard",2025-10-01
+"Rajesh Bose","rajesh.bose20@gmail.com","Freelancer.com",16845.33,INR,"Cybersecurity Audit",2025-10-13
+"Rajesh Bose","rajesh.bose20@gmail.com","Freelancer.com",6561.03,INR,"ETL Pipeline",2026-02-09
+"Rajesh Bose","rajesh.bose20@gmail.com","Freelancer.com",4190.60,INR,"Chatbot Development",2025-10-25
+"Rajesh Bose","rajesh.bose20@gmail.com","Upwork",11785.07,INR,"WordPress Plugin",2025-09-27
+"Rajesh Bose","rajesh.bose20@gmail.com","Upwork",24534.39,INR,"API Integration",2026-03-04
+"Rajesh Bose","rajesh.bose20@gmail.com","Upwork",11849.19,INR,"WordPress Plugin",2025-10-27
+"Rajesh Bose","rajesh.bose20@gmail.com","Upwork",22343.15,INR,"React Frontend Build",2026-01-17
+"Akash Verma","akash.verma59@gmail.com","Upwork",23757.80,INR,"Mobile App Development",2025-11-03
+"Akash Verma","akash.verma59@gmail.com","Upwork",12814.90,INR,"React Frontend Build",2025-09-09
+"Akash Verma","akash.verma59@gmail.com","Upwork",5283.51,INR,"UI/UX Design Review",2026-01-01
+"Akash Verma","akash.verma59@gmail.com","Upwork",9156.85,INR,"Bug Fix Sprint",2026-03-03
+"Akash Verma","akash.verma59@gmail.com","Fiverr",12232.09,INR,"Resume Writing",2026-01-14
+"Akash Verma","akash.verma59@gmail.com","Fiverr",24784.17,INR,"Video Editing",2025-11-26
+"Akash Verma","akash.verma59@gmail.com","Fiverr",19462.86,INR,"Logo Design",2026-03-06
+"Akash Verma","akash.verma59@gmail.com","Fiverr",3081.13,INR,"Whiteboard Animation",2025-10-10
+"Akash Verma","akash.verma59@gmail.com","Fiverr",14366.60,INR,"Content Writing",2026-01-05
+"Akash Verma","akash.verma59@gmail.com","Fiverr",7821.44,INR,"Podcast Editing",2025-12-27
+"Akash Verma","akash.verma59@gmail.com","Fiverr",16386.84,INR,"Virtual Assistant",2025-09-16
+"Akash Verma","akash.verma59@gmail.com","Fiverr",24057.90,INR,"Whiteboard Animation",2026-02-05
+"Karan Kumar","karan.kumar71@gmail.com","Freelancer.com",7693.17,INR,"Cloud Migration",2025-11-07
+"Karan Kumar","karan.kumar71@gmail.com","Freelancer.com",7869.37,INR,"Python Script Development",2025-09-18
+"Karan Kumar","karan.kumar71@gmail.com","Freelancer.com",10208.96,INR,"Cybersecurity Audit",2025-10-18
+"Karan Kumar","karan.kumar71@gmail.com","Fiverr",5935.33,INR,"Video Editing",2025-11-09
+"Karan Kumar","karan.kumar71@gmail.com","Fiverr",23110.08,INR,"Podcast Editing",2025-12-12
+"Karan Kumar","karan.kumar71@gmail.com","Fiverr",15129.18,INR,"Resume Writing",2025-09-18
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Freelancer.com",14337.20,INR,"Excel Automation",2026-02-02
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Freelancer.com",24924.56,INR,"Data Analysis Report",2025-12-02
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Freelancer.com",5893.96,INR,"Payment Gateway Setup",2026-02-03
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Freelancer.com",8293.56,INR,"Shopify Store Setup",2025-10-18
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Fiverr",4413.42,INR,"Resume Writing",2025-12-09
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Fiverr",17991.31,INR,"Content Writing",2025-09-28
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Fiverr",18029.71,INR,"Content Writing",2025-11-16
+"Gauri Kulkarni","gauri.kulkarni99@gmail.com","Fiverr",21350.63,INR,"Podcast Editing",2025-10-15
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",9514.21,INR,"Game Development",2025-11-26
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",11198.69,INR,"Chatbot Development",2025-09-13
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",20178.17,INR,"ERP Customization",2026-02-17
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",18647.25,INR,"Game Development",2026-01-16
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",21287.69,INR,"Chatbot Development",2025-12-13
+"Jaya Joshi","jaya.joshi35@gmail.com","Freelancer.com",17714.76,INR,"Android App",2025-09-21
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",22376.47,INR,"SEO Optimization",2025-09-29
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",22476.43,INR,"Web Development Project",2025-11-26
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",13679.76,INR,"Database Optimization",2025-10-02
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",23058.81,INR,"UI/UX Design Review",2026-01-22
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",13215.67,INR,"Technical Writing",2025-11-01
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",11579.80,INR,"Web Development Project",2025-10-15
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",21629.86,INR,"Technical Writing",2026-01-13
+"Jaya Joshi","jaya.joshi35@gmail.com","Upwork",17171.10,INR,"Full Stack Project",2025-09-14
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",17931.26,INR,"Graphic Design",2025-10-11
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",10247.76,INR,"Copywriting",2025-10-19
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",8659.57,INR,"Copywriting",2025-11-03
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",24726.07,INR,"Data Entry",2026-01-30
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",14284.23,INR,"Graphic Design",2025-12-22
+"Jaya Joshi","jaya.joshi35@gmail.com","Fiverr",10911.23,INR,"Logo Design",2025-11-10
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",10173.86,INR,"Excel Automation",2025-11-28
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",6022.84,INR,"Android App",2026-01-04
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",14112.28,INR,"Payment Gateway Setup",2025-12-11
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",13955.38,INR,"Blockchain Integration",2025-10-24
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",21108.07,INR,"Shopify Store Setup",2025-11-13
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Freelancer.com",4690.76,INR,"Blockchain Integration",2025-11-13
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Fiverr",6529.41,INR,"Whiteboard Animation",2025-12-20
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Fiverr",17193.06,INR,"Photo Editing",2025-10-19
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Fiverr",2382.89,INR,"Translation Service",2025-09-20
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Fiverr",18270.72,INR,"Social Media Management",2026-03-07
+"Usha Deshmukh","usha.deshmukh72@gmail.com","Fiverr",13945.20,INR,"Photo Editing",2025-11-30
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Upwork",24391.90,INR,"DevOps Setup",2025-11-04
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Upwork",13352.99,INR,"Technical Writing",2026-02-26
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Upwork",896.64,INR,"Landing Page Design",2026-02-26
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Upwork",22504.56,INR,"UI/UX Design Review",2025-12-06
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",11899.91,INR,"Graphic Design",2025-12-16
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",10620.82,INR,"Voice Over",2026-01-04
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",22568.26,INR,"Photo Editing",2025-09-24
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",10889.86,INR,"Copywriting",2025-09-12
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",18388.64,INR,"Virtual Assistant",2025-12-08
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",20787.09,INR,"Podcast Editing",2025-10-22
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",13315.19,INR,"Logo Design",2025-10-01
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Fiverr",5877.74,INR,"Voice Over",2026-01-29
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",16359.26,INR,"Blockchain Integration",2025-12-01
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",20663.10,INR,"Cloud Migration",2026-02-15
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",18910.29,INR,"Android App",2025-11-17
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",9557.65,INR,"Blockchain Integration",2025-12-28
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",18793.91,INR,"ETL Pipeline",2026-01-25
+"Kavya Dhawan","kavya.dhawan45@gmail.com","Freelancer.com",20491.36,INR,"Blockchain Integration",2025-11-12
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Upwork",22268.13,INR,"React Frontend Build",2025-10-07
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Upwork",6119.28,INR,"Web Development Project",2026-01-23
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Upwork",19934.78,INR,"API Integration",2025-09-23
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Upwork",4429.10,INR,"Landing Page Design",2025-09-19
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Fiverr",10470.01,INR,"Virtual Assistant",2026-01-27
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Fiverr",3678.26,INR,"Logo Design",2025-09-24
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Fiverr",18939.24,INR,"Resume Writing",2025-11-19
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Fiverr",24746.16,INR,"Translation Service",2025-12-06
+"Sunil Bhatia","sunil.bhatia85@gmail.com","Fiverr",21158.71,INR,"Copywriting",2025-09-26
+"Siddharth Gupta","siddharth.gupta78@gmail.com","Upwork",21451.15,INR,"SEO Optimization",2025-10-18
+"Siddharth Gupta","siddharth.gupta78@gmail.com","Upwork",18576.68,INR,"Bug Fix Sprint",2025-11-08
+"Siddharth Gupta","siddharth.gupta78@gmail.com","Upwork",12597.54,INR,"Mobile App Development",2026-01-14
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",22637.90,INR,"Landing Page Design",2025-12-20
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",11728.47,INR,"Code Review",2026-02-07
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",19700.44,INR,"Node.js Backend Service",2026-03-02
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",17559.60,INR,"Technical Writing",2026-02-26
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",696.76,INR,"Database Optimization",2025-11-15
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",10307.52,INR,"Database Optimization",2025-12-01
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Upwork",12869.87,INR,"Web Development Project",2026-02-12
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Fiverr",4118.61,INR,"Video Editing",2026-02-23
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Fiverr",4013.87,INR,"Resume Writing",2025-10-31
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Fiverr",9456.28,INR,"Graphic Design",2026-01-06
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Freelancer.com",7851.74,INR,"IoT Dashboard",2026-02-24
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Freelancer.com",22620.44,INR,"Cloud Migration",2025-11-07
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Freelancer.com",8597.40,INR,"ETL Pipeline",2026-01-06
+"Rajesh Pillai","rajesh.pillai61@gmail.com","Freelancer.com",11565.54,INR,"IoT Dashboard",2025-11-21
+"Sai Kapoor","sai.kapoor28@gmail.com","Freelancer.com",7402.95,INR,"ETL Pipeline",2025-11-27
+"Sai Kapoor","sai.kapoor28@gmail.com","Freelancer.com",4992.42,INR,"Machine Learning Model",2025-12-06
+"Sai Kapoor","sai.kapoor28@gmail.com","Freelancer.com",24805.02,INR,"Excel Automation",2026-02-15
+"Sai Kapoor","sai.kapoor28@gmail.com","Freelancer.com",10555.68,INR,"Python Script Development",2026-01-29
+"Sai Kapoor","sai.kapoor28@gmail.com","Freelancer.com",8584.25,INR,"Machine Learning Model",2026-02-11
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",14302.55,INR,"Illustration",2025-11-08
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",12888.39,INR,"Voice Over",2025-09-28
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",24559.94,INR,"Voice Over",2025-10-07
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",17748.64,INR,"Social Media Management",2025-09-15
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",3676.21,INR,"Social Media Management",2025-10-26
+"Sai Kapoor","sai.kapoor28@gmail.com","Fiverr",5414.24,INR,"Content Writing",2026-01-23
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",13951.32,INR,"Database Optimization",2025-12-27
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",18131.73,INR,"Web Development Project",2025-10-31
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",7910.15,INR,"SEO Optimization",2025-10-24
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",17582.65,INR,"Landing Page Design",2025-10-10
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",14882.05,INR,"Node.js Backend Service",2026-03-03
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Upwork",12467.74,INR,"API Integration",2025-09-20
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",1488.07,INR,"Social Media Management",2025-12-15
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",12054.55,INR,"Photo Editing",2025-12-31
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",9933.70,INR,"Data Entry",2025-09-28
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",21266.54,INR,"Content Writing",2026-02-04
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",8623.86,INR,"Video Editing",2025-10-23
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Fiverr",15926.57,INR,"Data Entry",2025-11-25
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",5693.89,INR,"Shopify Store Setup",2026-02-21
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",3571.79,INR,"Chatbot Development",2026-02-28
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",5258.57,INR,"ERP Customization",2025-12-13
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",7312.06,INR,"Android App",2025-12-17
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",19111.24,INR,"Android App",2025-12-19
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",14917.75,INR,"Cybersecurity Audit",2025-09-26
+"Madhuri Dubey","madhuri.dubey54@gmail.com","Freelancer.com",11609.91,INR,"Android App",2025-12-25

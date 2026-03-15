@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MicroCredit - Blockchain Lending for Freelancers</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script>
+    if (window.trustedTypes && window.trustedTypes.createPolicy) {
+      window.trustedTypes.createPolicy('default', {
+        createHTML: (s) => s,
+        createScriptURL: (s) => s,
+        createScript: (s) => s,
+      });
+    }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    (function loadOtpScript(urls) {
+      let i = 0;
+      function attempt() {
+        const s = document.createElement('script');
+        s.src = urls[i];
+        s.async = true;
+        s.onload = function() { window.__msg91Loaded = true; };
+        s.onerror = function() { i++; if (i < urls.length) attempt(); };
+        document.head.appendChild(s);
+      }
+      attempt();
+    })([
+      'https://verify.msg91.com/otp-provider.js',
+      'https://verify.phone91.com/otp-provider.js'
+    ]);
+  </script>
+</body>
+</html>

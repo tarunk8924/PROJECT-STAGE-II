@@ -1,0 +1,72 @@
+1. In Registration page -> OTP should go to given mobile number (not demo, real firebase) -> Fix it
+2. In KYC Verification -> After entering Aadhaar number -> OTP should go to registered mobile number used during registration (not demo, real firebase)
+3. In Connect Wallet -> To connect using UPI ID -> Create a feature in my project that verifies whether a user-entered UPI ID is valid before connecting it to a wallet.
+
+Requirements:
+
+* Accept a UPI ID input from the user.
+* Validate the format of the UPI ID (username@handle).
+* Ensure the username contains only letters, numbers, dots, underscores, or hyphens.
+* Ensure the handle exists in a list of common UPI providers such as: okaxis, oksbi, okhdfcbank, okicici, okyesbank, ybl, ibl, upi, paytm, axl.
+
+After format validation, simulate a UPI collect request verification process:
+
+* If the UPI ID passes validation, simulate sending a ₹1 collect request to check if the VPA exists.
+* If the UPI looks valid, return a response indicating that the UPI ID is valid and the wallet can be connected.
+* If invalid, return an error message stating that the UPI ID is invalid.
+
+The verification should only simulate the collect request and should not perform any real payment.
+
+Create an API endpoint that receives a UPI ID and returns a JSON response showing:
+
+* validation status
+* message explaining whether the UPI ID is valid or invalid.
+
+Use clear backend logic and handle errors properly.
+(If this works, remove OTP verification from this), if needed use Razorpay API key
+4. In earnings section -> For Gig Platform Connections -> Add a feature that allows users to connect their freelance platform accounts such as Upwork or Freelancer or Fiverr.
+
+Since these platforms do not provide public APIs, implement a profile verification workflow:
+
+1. Allow users to paste their freelancer profile URL (Upwork/Freelancer).
+2. Fetch the public profile page from the URL.
+3. Extract visible information such as rating, total earnings, completed jobs, and job success score.
+4. Store this data in the user's profile for credit scoring.
+
+Additionally, add an alternative verification method:
+
+* Allow users to upload a screenshot of their freelancer earnings dashboard.
+* Use OCR to extract key metrics such as earnings, rating, and completed projects.
+
+Return a structured JSON response with extracted freelancer metrics.
+
+This data will be used later for calculating a freelancer credit score in the system.
+5. In Credit Score Section -> Create a freelancer credit scoring system similar to the CIBIL model but designed for gig economy workers.
+
+Requirements:
+
+* Score range must be 300–900.Intially unscored for new users and those who didn't update earnings,wallet and KYC
+* Score should be calculated using weighted factors.
+
+Factors to include:
+
+1. Earnings stability (30%)
+2. Platform reputation such as rating and completed jobs (25%)
+3. Loan repayment history (25%)
+4. Work consistency across months (10%)
+5. Identity verification such as UPI verification (10%)
+
+Steps:
+
+* Normalize each factor to a 0–100 scale.
+* Apply weights to compute a weighted score.
+* Convert the weighted score to a 300–900 credit score scale.
+
+The system should also return an explanation showing which factors improved or reduced the score.
+
+Output should include:
+
+* final credit score
+* factor breakdown
+* explanation for transparency.(Don't change whole frontend interface, include those which are missing)
+6. In Apply Loan section -> Under Loan Preview -> Don't calculate interest for amount less than 15000

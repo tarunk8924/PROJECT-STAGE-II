@@ -1,0 +1,22 @@
+[1G[0K⠙[1G[0K[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[2K[1Gtransforming (1) [2msrc/main.tsx[22m[2K[1Gtransforming (9) [2m../node_modules/react/cjs/react.production.js[22m[2K[1G[2K[1G[2K[1Gtransforming (32) [2msrc/pages/ForgotPassword.tsx[22m[2K[1Gtransforming (50) [2msrc/pages/ConnectWallet.tsx[22m[2K[1Gtransforming (56) [2m../node_modules/recharts/es6/container/Layer.js[22m[2K[1Gtransforming (541) [2m../node_modules/lucide-react/dist/esm/icons/bookmark-plus.js[22m[2K[1Gtransforming (1058) [2m../node_modules/lucide-react/dist/esm/icons/image-plus.js[22m[2K[1Gtransforming (1550) [2m../node_modules/lucide-react/dist/esm/icons/space.js[22m[2K[1Gtransforming (1909) [2m../node_modules/@firebase/util/dist/index.esm.js[22m[2K[1Gtransforming (1986) [2m../node_modules/@firebase/util/dist/postinstall.mjs[22m[2K[1Gtransforming (2082) [2m../node_modules/es-toolkit/dist/compat/_internal/compareValues.js[22m[2K[1Gtransforming (2279) [2m../node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.production.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[32m✓[39m 2391 modules transformed.
+[2K[1Grendering chunks (1)...[2K[1Grendering chunks (2)...[2K[1Grendering chunks (3)...[2K[1Grendering chunks (4)...[2K[1G[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1Gcomputing gzip size (3)...[2K[1Gcomputing gzip size (4)...[2K[1Gcomputing gzip size (5)...[2K[1Gcomputing gzip size (6)...[2K[1G[2m../dist/[22m[32mindex.html                    [39m[1m[2m  0.48 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+[2m../dist/[22m[2massets/[22m[35mindex-Bv7mUL7g.css     [39m[1m[2m 41.86 kB[22m[1m[22m[2m │ gzip:   8.00 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-08hBwSFv.js  [39m[1m[2m  0.74 kB[22m[1m[22m[2m │ gzip:   0.41 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-Bqqt5W3g.js  [39m[1m[2m 35.00 kB[22m[1m[22m[2m │ gzip:  11.63 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-C1zMchot.js  [39m[1m[2m127.02 kB[22m[1m[22m[2m │ gzip:  36.02 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex-B9Ohknx8.js      [39m[1m[33m846.06 kB[39m[22m[2m │ gzip: 234.60 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 5.03s[39m
+[1G[0K⠙[1G[0K[Firebase] Admin SDK initialized for project: blockchain-based-micro-credit
+MicroCredit Server running on http://0.0.0.0:5000
+Connected to Ethereum network: sepolia (chainId: 11155111)
+Deployer address: 0xA6C3b5CF77F8e420d14a41612B7f968Da9082bc5
+Deployer balance: 0.041487078740016692 ETH
+Blockchain mode: Ethereum Sepolia (real)
+[CSV Watcher] Watching /home/runner/workspace/data/gig_earnings_100_users.csv for changes...
+[CSV Watcher] Initial CSV found, will import on first change

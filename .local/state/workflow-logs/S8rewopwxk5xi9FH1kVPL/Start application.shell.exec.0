@@ -1,0 +1,23 @@
+[1G[0K⠙[1G[0K[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[2K[1Gtransforming (1) [2msrc/main.tsx[22m[2K[1Gtransforming (7) [2m../node_modules/react-router/dist/development/index.mjs[22m[2K[1G[2K[1Gtransforming (12) [2m../node_modules/react/index.js[22m[2K[1G[2K[1Gtransforming (26) [2msrc/pages/LoanDetails.tsx[22m[2K[1Gtransforming (30) [2msrc/pages/Earnings.tsx[22m[2K[1Gtransforming (516) [2m../node_modules/lucide-react/dist/esm/icons/candy-cane.js[2[2K[1Gtransforming (1037) [2msrc/pages/Login.tsx[22m[2K[1Gtransforming (1529) [2m../node_modules/lucide-react/dist/esm/icons/syringe.js[22m[2K[1Gtransforming (1780) [2m../node_modules/react-router/dist/development/chunk-JZWAC4H[2K[1Gtransforming (1895) [2m../node_modules/scheduler/index.js[22m[2K[1Gtransforming (1899) [2m../node_modules/react-dom/cjs/react-dom-client.production.j[2K[1Gtransforming (1983) [2m../node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.[2K[1Gtransforming (2074) [2m../node_modules/recharts/es6/state/selectors/selectActivePr[2K[1Gtransforming (2143) [2m../node_modules/es-toolkit/dist/predicate/isTypedArray.js[[2K[1Gtransforming (2291) [2m../node_modules/use-sync-external-store/cjs/use-sync-extern[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[32m✓[39m 2391 modules transformed.
+[2K[1Grendering chunks (1)...[2K[1Grendering chunks (2)...[2K[1Grendering chunks (3)...[2K[1Grendering chunks (4)...[2K[1G[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1Gcomputing gzip size (3)...[2K[1Gcomputing gzip size (4)...[2K[1Gcomputing gzip size (5)...[2K[1Gcomputing gzip size (6)...[2K[1G[2m../dist/[22m[32mindex.html                    [39m[1m[2m  0.48 kB[22m[1m[22m[2m │ gzip:   0.32 kB[22m
+[2m../dist/[22m[2massets/[22m[35mindex-D_jZgFB-.css     [39m[1m[2m 42.20 kB[22m[1m[22m[2m │ gzip:   8.05 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-08hBwSFv.js  [39m[1m[2m  0.74 kB[22m[1m[22m[2m │ gzip:   0.41 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-Bqqt5W3g.js  [39m[1m[2m 35.00 kB[22m[1m[22m[2m │ gzip:  11.63 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex.esm-C1zMchot.js  [39m[1m[2m127.02 kB[22m[1m[22m[2m │ gzip:  36.02 kB[22m
+[2m../dist/[22m[2massets/[22m[36mindex-CUqCAGOf.js      [39m[1m[33m848.98 kB[39m[22m[2m │ gzip: 235.31 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 6.67s[39m
+[1G[0K⠙[1G[0K[Firebase] Admin SDK initialized for project: blockchain-based-micro-credit
+MicroCredit Server running on http://0.0.0.0:5000
+Connected to Ethereum network: sepolia (chainId: 11155111)
+Deployer address: 0xA6C3b5CF77F8e420d14a41612B7f968Da9082bc5
+Deployer balance: 0.041869200781936254 ETH
+Blockchain mode: Ethereum Sepolia (real)
+[CSV Watcher] Watching /home/runner/workspace/data/gig_earnings_100_users.csv for changes...
+[CSV Watcher] Initial CSV found, will import on first change
+Using existing contract at: 0xF1F04EADB62C50e9B70Ff80623F708CAb2a6726A
