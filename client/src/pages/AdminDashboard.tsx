@@ -54,10 +54,6 @@ export default function AdminDashboard() {
     }
   };
 
-  if (loading) return <div className="text-center py-8 text-gray-400">Loading dashboard...</div>;
-  if (error) return <div className="max-w-4xl mx-auto"><div className="p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm">{error}</div></div>;
-  if (!stats) return <div className="text-center py-8 text-red-500">Failed to load stats</div>;
-
   const cards = [
     { label: "Total Users", value: stats.totalUsers, icon: Users, color: "text-blue-600", bg: "bg-blue-50 border-blue-200" },
     { label: "KYC Verified", value: stats.kycVerified, icon: CheckCircle, color: "text-green-600", bg: "bg-green-50 border-green-200" },
@@ -87,6 +83,10 @@ export default function AdminDashboard() {
       repayments: repaymentMap.get(month) || 0,
     }));
   }, [analytics]);
+
+  if (loading) return <div className="text-center py-8 text-gray-400">Loading dashboard...</div>;
+  if (error) return <div className="max-w-4xl mx-auto"><div className="p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm">{error}</div></div>;
+  if (!stats) return <div className="text-center py-8 text-red-500">Failed to load stats</div>;
 
   const statusColor = (status: string) => {
     switch (status) {
