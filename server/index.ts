@@ -1,6 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
+import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { db } from "./db.js";
@@ -31,16 +32,25 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
 const isProduction = process.env.NODE_ENV === "production";
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
-  .split(",")
-  .map((origin) => origin.trim())
-  .filter(Boolean);
+const normalizeOrigin = (value: string) => value.trim().replace(/\/+$/, "");
+const allowedOrigins = new Set(
+  (process.env.ALLOWED_ORIGINS || "")
+    .split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean)
+    .map(normalizeOrigin),
+);
+
+if (process.env.RENDER_EXTERNAL_URL) {
+  allowedOrigins.add(normalizeOrigin(process.env.RENDER_EXTERNAL_URL));
+}
 
 app.use(cors({
   origin(origin, callback) {
     if (!origin) return callback(null, true);
     if (!isProduction) return callback(null, true);
-    if (allowedOrigins.includes(origin)) return callback(null, true);
+    if (allowedOrigins.size === 0) return callback(null, true);
+    if (allowedOrigins.has(normalizeOrigin(origin))) return callback(null, true);
     return callback(new Error("CORS origin not allowed"));
   },
 }));
@@ -66,15 +76,31 @@ app.get("/api/health", (_req, res) => {
 });
 
 const distPath = path.resolve(__dirname, "../dist");
+const distIndexPath = path.join(distPath, "index.html");
+
+if (isProduction && !fs.existsSync(distIndexPath)) {
+  console.error(`Frontend build output is missing. Expected file: ${distIndexPath}`);
+}
+
 app.use(express.static(distPath, {
   setHeaders: (res) => {
     res.setHeader("Cache-Control", "no-cache");
   },
 }));
 
-app.get("/{*path}", (_req, res) => {
+app.get("/{*path}", (req, res, next) => {
+  // If the request looks like a static file but it was not found above,
+  // return a 404 instead of the SPA shell to avoid MIME-type confusion.
+  if (path.extname(req.path)) {
+    return res.status(404).json({ error: "Static asset not found", path: req.path });
+  }
+
+  if (!fs.existsSync(distIndexPath)) {
+    return next(new Error(`Frontend build output missing at ${distIndexPath}`));
+  }
+
   res.setHeader("Cache-Control", "no-cache");
-  res.sendFile(path.join(distPath, "index.html"));
+  res.sendFile(distIndexPath);
 });
 
 async function seedAdmin() {
