@@ -1,9 +1,14 @@
 import { Router, Request, Response } from "express";
 import { db } from "../db.js";
-import { razorpayPayments, transactions, auditLogs } from "../../shared/schema.js";
+import { razorpayPayments, transactions, auditLogs, loans, repayments, users, smartContracts, wallets } from "../../shared/schema.js";
 import { eq, and, desc } from "drizzle-orm";
 import { getAuthPayload } from "../middleware/auth.js";
 import crypto from "crypto";
+import {
+  recordRepaymentBlockchain,
+  createOnChainEvent,
+  createContractEvent,
+} from "../utils/blockchain.js";
 
 const router = Router();
 
@@ -177,6 +182,90 @@ router.post("/verify", async (req: Request, res: Response) => {
         eq(razorpayPayments.orderId, razorpay_order_id),
         eq(razorpayPayments.userId, auth.userId)
       ));
+
+    if (existingRecord.loanId) {
+      const [loan] = await db.select().from(loans).where(eq(loans.id, existingRecord.loanId));
+
+      if (loan && loan.userId === auth.userId && loan.status === "active") {
+        const remaining = loan.totalDue - (loan.amountRepaid || 0);
+        const actualPayment = Math.min(existingRecord.amount, remaining);
+
+        if (actualPayment > 0) {
+          const isOnTime = loan.nextDueDate ? new Date() <= new Date(loan.nextDueDate) : true;
+          const newAmountRepaid = (loan.amountRepaid || 0) + actualPayment;
+          const isFullyRepaid = newAmountRepaid >= loan.totalDue;
+
+          const blockchainResult = await recordRepaymentBlockchain(
+            loan.id,
+            actualPayment,
+            newAmountRepaid,
+            isOnTime
+          );
+
+          await db.insert(repayments).values({
+            loanId: loan.id,
+            userId: auth.userId,
+            amount: actualPayment,
+            isOnTime,
+            transactionHash: blockchainResult.txHash,
+          });
+
+          const [primaryWallet] = await db.select().from(wallets).where(
+            and(
+              eq(wallets.userId, auth.userId),
+              eq(wallets.isVerified, true),
+              eq(wallets.isPrimary, true)
+            )
+          );
+
+          await db.insert(transactions).values({
+            userId: auth.userId,
+            loanId: loan.id,
+            walletId: primaryWallet?.id,
+            type: "repayment",
+            amount: actualPayment,
+            status: "completed",
+            paymentMethod: paymentDetails.method || "razorpay",
+            reference: razorpay_payment_id,
+            txHash: blockchainResult.txHash,
+            completedAt: new Date(),
+          });
+
+          await db.update(loans).set({
+            amountRepaid: newAmountRepaid,
+            status: isFullyRepaid ? "completed" : "active",
+            completedAt: isFullyRepaid ? new Date() : undefined,
+            nextDueDate: isFullyRepaid ? undefined : new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+          }).where(eq(loans.id, loan.id));
+
+          const [user] = await db.select().from(users).where(eq(users.id, auth.userId));
+          let reputationDelta = isOnTime ? 3 : -5;
+          if (isFullyRepaid) reputationDelta += 5;
+
+          const newReputation = Math.max(0, Math.min(100, (user?.reputationScore || 50) + reputationDelta));
+          await db.update(users).set({ reputationScore: newReputation }).where(eq(users.id, auth.userId));
+
+          const [contract] = await db.select().from(smartContracts).where(eq(smartContracts.loanId, loan.id));
+          if (contract) {
+            const existingEvents = JSON.parse(contract.events || "[]");
+            existingEvents.push(blockchainResult.event);
+
+            if (isFullyRepaid) {
+              const completedEvent = blockchainResult.onChain
+                ? createOnChainEvent("LoanCompleted", blockchainResult.txHash, blockchainResult.blockNumber, { loanId: loan.id, totalRepaid: newAmountRepaid })
+                : createContractEvent("LoanCompleted", { loanId: loan.id, totalRepaid: newAmountRepaid });
+              existingEvents.push(completedEvent);
+            }
+
+            await db.update(smartContracts).set({
+              status: isFullyRepaid ? "completed" : "active",
+              events: JSON.stringify(existingEvents),
+              updatedAt: new Date(),
+            }).where(eq(smartContracts.loanId, loan.id));
+          }
+        }
+      }
+    }
 
     await db.insert(transactions).values({
       userId: existingRecord.userId,

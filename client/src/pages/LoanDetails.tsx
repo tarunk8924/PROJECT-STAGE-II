@@ -14,6 +14,7 @@ declare global {
 
 interface RazorpayPayment {
   id: number;
+  loanId?: number | null;
   orderId: string;
   paymentId: string | null;
   amount: number;
