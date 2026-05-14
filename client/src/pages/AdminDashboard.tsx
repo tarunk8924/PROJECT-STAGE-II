@@ -54,16 +54,31 @@ export default function AdminDashboard() {
     }
   };
 
+  const safeStats = stats ?? {
+    totalUsers: 0,
+    kycVerified: 0,
+    totalLoans: 0,
+    pendingLoans: 0,
+    pendingKycReviews: 0,
+    activeLoans: 0,
+    completedLoans: 0,
+    defaultedLoans: 0,
+    totalDisbursed: 0,
+    totalRepaid: 0,
+    avgCreditScore: 0,
+    blockchainMode: null,
+  };
+
   const cards = [
-    { label: "Total Users", value: stats.totalUsers, icon: Users, color: "text-blue-600", bg: "bg-blue-50 border-blue-200" },
-    { label: "KYC Verified", value: stats.kycVerified, icon: CheckCircle, color: "text-green-600", bg: "bg-green-50 border-green-200" },
-    { label: "Total Loans", value: stats.totalLoans, icon: FileText, color: "text-indigo-600", bg: "bg-indigo-50 border-indigo-200" },
-    { label: "Pending Approval", value: stats.pendingLoans, icon: Clock, color: "text-yellow-600", bg: "bg-yellow-50 border-yellow-200" },
-    { label: "KYC Reviews", value: stats.pendingKycReviews || 0, icon: Shield, color: "text-amber-600", bg: "bg-amber-50 border-amber-200" },
-    { label: "Active Loans", value: stats.activeLoans, icon: TrendingUp, color: "text-purple-600", bg: "bg-purple-50 border-purple-200" },
-    { label: "Completed", value: stats.completedLoans, icon: CheckCircle, color: "text-green-600", bg: "bg-green-50 border-green-200" },
-    { label: "Defaulted", value: stats.defaultedLoans, icon: XCircle, color: "text-red-600", bg: "bg-red-50 border-red-200" },
-    { label: "Avg Credit Score", value: stats.avgCreditScore, icon: BarChart3, color: "text-cyan-600", bg: "bg-cyan-50 border-cyan-200" },
+    { label: "Total Users", value: safeStats.totalUsers, icon: Users, color: "text-blue-600", bg: "bg-blue-50 border-blue-200" },
+    { label: "KYC Verified", value: safeStats.kycVerified, icon: CheckCircle, color: "text-green-600", bg: "bg-green-50 border-green-200" },
+    { label: "Total Loans", value: safeStats.totalLoans, icon: FileText, color: "text-indigo-600", bg: "bg-indigo-50 border-indigo-200" },
+    { label: "Pending Approval", value: safeStats.pendingLoans, icon: Clock, color: "text-yellow-600", bg: "bg-yellow-50 border-yellow-200" },
+    { label: "KYC Reviews", value: safeStats.pendingKycReviews || 0, icon: Shield, color: "text-amber-600", bg: "bg-amber-50 border-amber-200" },
+    { label: "Active Loans", value: safeStats.activeLoans, icon: TrendingUp, color: "text-purple-600", bg: "bg-purple-50 border-purple-200" },
+    { label: "Completed", value: safeStats.completedLoans, icon: CheckCircle, color: "text-green-600", bg: "bg-green-50 border-green-200" },
+    { label: "Defaulted", value: safeStats.defaultedLoans, icon: XCircle, color: "text-red-600", bg: "bg-red-50 border-red-200" },
+    { label: "Avg Credit Score", value: safeStats.avgCreditScore, icon: BarChart3, color: "text-cyan-600", bg: "bg-cyan-50 border-cyan-200" },
   ];
 
   const chartData = React.useMemo(() => {
