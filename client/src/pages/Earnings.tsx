@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { api } from "../lib/api";
-import { DollarSign, Globe, RefreshCw, TrendingUp, Briefcase, Upload, Download, FileText, CheckCircle, AlertCircle, Search, Camera, Star, Award, ExternalLink } from "lucide-react";
+import { DollarSign, Globe, RefreshCw, TrendingUp, Briefcase, Upload, CheckCircle, AlertCircle, Search, Camera, Star, Award, ExternalLink } from "lucide-react";
 
 interface PlatformConnection {
   id: number;
@@ -22,11 +22,6 @@ export default function Earnings() {
 
   const [connections, setConnections] = useState<PlatformConnection[]>([]);
   const [syncingId, setSyncingId] = useState<number | null>(null);
-
-  const fileInputRef = useRef<HTMLInputElement>(null);
-  const [csvUploading, setCsvUploading] = useState(false);
-  const [csvResult, setCsvResult] = useState<{ message: string; earningsCreated: number; usersCreated: number; skipped: number; errors: string[] } | null>(null);
-  const [csvError, setCsvError] = useState("");
 
   const [profileUrl, setProfileUrl] = useState("");
   const [profileVerifying, setProfileVerifying] = useState(false);
@@ -78,32 +73,6 @@ export default function Earnings() {
       console.error(err.message || "Failed to sync earnings");
     } finally {
       setSyncingId(null);
-    }
-  };
-
-  const handleCsvUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    if (!file.name.endsWith(".csv")) {
-      setCsvError("Please upload a .csv file");
-      return;
-    }
-
-    setCsvUploading(true);
-    setCsvError("");
-    setCsvResult(null);
-
-    try {
-      const text = await file.text();
-      const result = await api.earnings.csvUpload(text);
-      setCsvResult(result);
-      await loadEarnings();
-    } catch (err: any) {
-      setCsvError(err.message || "Failed to upload CSV");
-    } finally {
-      setCsvUploading(false);
-      if (fileInputRef.current) fileInputRef.current.value = "";
     }
   };
 
@@ -535,94 +504,6 @@ export default function Earnings() {
           </div>
         </div>
       )}
-
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <Upload className="w-5 h-5 text-indigo-600" />
-            <h2 className="text-lg font-semibold text-gray-900">Import Earnings from CSV</h2>
-          </div>
-          <a
-            href={api.earnings.csvTemplate()}
-            download
-            className="flex items-center gap-1.5 text-sm text-indigo-600 hover:text-indigo-700 font-medium"
-          >
-            <Download className="w-4 h-4" />
-            Download Template
-          </a>
-        </div>
-
-        <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center hover:border-indigo-400 transition-colors">
-          <input
-            ref={fileInputRef}
-            type="file"
-            accept=".csv"
-            onChange={handleCsvUpload}
-            className="hidden"
-            id="csv-upload"
-          />
-          <FileText className="w-10 h-10 text-gray-400 mx-auto mb-3" />
-          {csvUploading ? (
-            <div className="space-y-2">
-              <RefreshCw className="w-6 h-6 text-indigo-600 animate-spin mx-auto" />
-              <p className="text-sm text-gray-600">Processing CSV file...</p>
-            </div>
-          ) : (
-            <>
-              <p className="text-sm text-gray-600 mb-1">
-                Upload a CSV file with gig earnings data
-              </p>
-              <p className="text-xs text-gray-400 mb-3">
-                Required columns: platform, amount, earned_at. Optional: user_name, email, currency, description
-              </p>
-              <label
-                htmlFor="csv-upload"
-                className="inline-flex items-center gap-2 px-4 py-2.5 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-sm font-medium cursor-pointer"
-              >
-                <Upload className="w-4 h-4" />
-                Choose CSV File
-              </label>
-            </>
-          )}
-        </div>
-
-        {csvError && (
-          <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
-            <AlertCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
-            <p className="text-sm text-red-700">{csvError}</p>
-          </div>
-        )}
-
-        {csvResult && (
-          <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg">
-            <div className="flex items-center gap-2 mb-2">
-              <CheckCircle className="w-5 h-5 text-green-600" />
-              <p className="font-medium text-green-800">Import Complete</p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
-              <div className="bg-white rounded-lg p-2 text-center">
-                <p className="font-bold text-green-700">{csvResult.earningsCreated}</p>
-                <p className="text-gray-500 text-xs">Earnings Added</p>
-              </div>
-              <div className="bg-white rounded-lg p-2 text-center">
-                <p className="font-bold text-indigo-700">{csvResult.usersCreated}</p>
-                <p className="text-gray-500 text-xs">Users Created</p>
-              </div>
-              <div className="bg-white rounded-lg p-2 text-center">
-                <p className="font-bold text-yellow-700">{csvResult.skipped}</p>
-                <p className="text-gray-500 text-xs">Rows Skipped</p>
-              </div>
-            </div>
-            {csvResult.errors.length > 0 && (
-              <div className="mt-3 text-xs text-red-600 space-y-1">
-                {csvResult.errors.map((err, i) => (
-                  <p key={i}>{err}</p>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-      </div>
 
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-4 border-b border-gray-200 flex items-center justify-between">

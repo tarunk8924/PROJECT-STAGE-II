@@ -161,8 +161,12 @@ router.get("/analytics", async (req: Request, res: Response) => {
     const allKycRecords = await db.select().from(kycRecords);
 
     const disbursementsByMonth: Record<string, number> = {};
-    allLoans.filter(l => l.approvedAt && ["active", "completed"].includes(l.status)).forEach(loan => {
-      const d = new Date(loan.approvedAt!);
+    allLoans
+      .filter(l => ["active", "completed", "defaulted"].includes(l.status))
+      .forEach(loan => {
+      const baseDate = loan.approvedAt || loan.createdAt;
+      if (!baseDate) return;
+      const d = new Date(baseDate);
       const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
       disbursementsByMonth[key] = (disbursementsByMonth[key] || 0) + loan.amount;
     });

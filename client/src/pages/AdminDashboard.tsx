@@ -4,6 +4,16 @@ import { api } from "../lib/api";
 import { Users, FileText, Wallet, BarChart3, TrendingUp, Clock, CheckCircle, XCircle, Shield, Activity, AlertTriangle, ExternalLink, Blocks } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
+function getRecentMonths(count = 6) {
+  const months: string[] = [];
+  const now = new Date();
+  for (let i = count - 1; i >= 0; i -= 1) {
+    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    months.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`);
+  }
+  return months;
+}
+
 export default function AdminDashboard() {
   const [stats, setStats] = useState<any>(null);
   const [analytics, setAnalytics] = useState<any>(null);
@@ -60,11 +70,23 @@ export default function AdminDashboard() {
     { label: "Avg Credit Score", value: stats.avgCreditScore, icon: BarChart3, color: "text-cyan-600", bg: "bg-cyan-50 border-cyan-200" },
   ];
 
-  const chartData = analytics ? analytics.monthlyDisbursements.map((d: any, i: number) => ({
-    month: d.month,
-    disbursements: d.amount,
-    repayments: analytics.monthlyRepayments[i]?.amount || 0,
-  })) : [];
+  const chartData = React.useMemo(() => {
+    if (!analytics) return [];
+
+    const disbursementMap = new Map((analytics.monthlyDisbursements || []).map((d: any) => [d.month, d.amount || 0]));
+    const repaymentMap = new Map((analytics.monthlyRepayments || []).map((d: any) => [d.month, d.amount || 0]));
+    const months = Array.from(new Set([
+      ...getRecentMonths(6),
+      ...disbursementMap.keys(),
+      ...repaymentMap.keys(),
+    ])).sort();
+
+    return months.map((month) => ({
+      month,
+      disbursements: disbursementMap.get(month) || 0,
+      repayments: repaymentMap.get(month) || 0,
+    }));
+  }, [analytics]);
 
   const statusColor = (status: string) => {
     switch (status) {

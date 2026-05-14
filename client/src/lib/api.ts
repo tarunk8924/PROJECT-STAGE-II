@@ -74,9 +74,6 @@ export const api = {
     addPayment: (data: { type: string; amount: number; from?: string; to?: string; reference?: string }) =>
       request("/earnings/payment", { method: "POST", body: JSON.stringify(data) }),
     getPayments: () => request("/earnings/payment"),
-    csvUpload: (csvData: string) =>
-      request("/earnings/csv-upload", { method: "POST", body: JSON.stringify({ csvData }) }),
-    csvTemplate: () => `/api/earnings/csv-template`,
   },
   score: {
     get: (userId: number) => request(`/score/${userId}`),

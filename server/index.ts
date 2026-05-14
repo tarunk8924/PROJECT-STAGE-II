@@ -30,8 +30,20 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
+const isProduction = process.env.NODE_ENV === "production";
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || "")
+  .split(",")
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 
-app.use(cors());
+app.use(cors({
+  origin(origin, callback) {
+    if (!origin) return callback(null, true);
+    if (!isProduction) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    return callback(new Error("CORS origin not allowed"));
+  },
+}));
 app.use(express.json({ limit: "10mb" }));
 
 app.use("/api/auth", authRoutes);
@@ -66,6 +78,11 @@ app.get("/{*path}", (_req, res) => {
 });
 
 async function seedAdmin() {
+  if (isProduction) {
+    console.log("Skipping demo admin seeding in production");
+    return;
+  }
+
   try {
     const [existingAdmin] = await db.select().from(users).where(eq(users.email, "admin@microcredit.com"));
     if (existingAdmin && !existingAdmin.emailVerified) {
@@ -115,5 +132,9 @@ app.listen(PORT, "0.0.0.0", async () => {
     }
   }, 5000);
 
-  startCSVWatcher();
+  if (!isProduction) {
+    startCSVWatcher();
+  } else {
+    console.log("CSV watcher disabled in production");
+  }
 });

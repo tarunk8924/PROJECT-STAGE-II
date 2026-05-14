@@ -298,7 +298,7 @@ router.post("/submit-review", async (req: Request, res: Response) => {
     }
 
     const uploadedDocs = await db.select().from(kycDocuments).where(eq(kycDocuments.userId, userId));
-    const requiredDocTypes = ["identity_front", "address_proof", "selfie_live", "identity_face", "selfie_face", "biometric_report"];
+    const requiredDocTypes = ["identity_front", "address_proof", "selfie_live"];
     const missing = requiredDocTypes.filter((docType) => !uploadedDocs.some((doc) => doc.docType === docType));
     if (missing.length > 0) {
       return res.status(400).json({ error: `Missing required KYC artifacts: ${missing.join(", ")}` });

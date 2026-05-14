@@ -164,6 +164,17 @@ export default function ConnectWallet() {
     try {
       const { idToken } = await confirmFirebasePhoneOtp(confirmationResult, otpCode);
       await api.wallets.verify(verifyingId, { firebaseIdToken: idToken });
+      setBankVerificationChecks((prev) =>
+        prev.map((check) =>
+          check.key === "mobile_ownership"
+            ? {
+                ...check,
+                status: "passed",
+                details: "Mobile ownership confirmed",
+              }
+            : check
+        )
+      );
       setSuccess("Bank account verified successfully!");
       setVerifyingId(null);
       setVerifyingMobile("");

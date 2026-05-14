@@ -33,18 +33,6 @@ interface DocState {
 
 interface CapturePayload {
   dataUrl: string;
-  livenessFrames?: string[];
-  livenessChecks?: { challenge: string; motionScore: number; passed: boolean }[];
-}
-
-interface BiometricReport {
-  similarityScore: number;
-  matchPassed: boolean;
-  livenessPassed: boolean;
-  livenessChecks: { challenge: string; motionScore: number; passed: boolean }[];
-  detectionMethod: string;
-  recommendation: string;
-  generatedAt: string;
 }
 
 const DOC_TYPES = [
@@ -89,103 +77,6 @@ async function dataUrlToImage(dataUrl: string) {
   return img;
 }
 
-async function detectFaceBounds(dataUrl: string) {
-  const FaceDetectorCtor = (window as any).FaceDetector;
-  const image = await dataUrlToImage(dataUrl);
-  if (FaceDetectorCtor) {
-    try {
-      const detector = new FaceDetectorCtor({ fastMode: true, maxDetectedFaces: 1 });
-      const bitmap = await createImageBitmap(image);
-      const faces = await detector.detect(bitmap);
-      bitmap.close?.();
-      const face = faces?.[0];
-      if (face?.boundingBox) {
-        return {
-          x: face.boundingBox.x,
-          y: face.boundingBox.y,
-          width: face.boundingBox.width,
-          height: face.boundingBox.height,
-          method: "face_detector",
-        };
-      }
-    } catch {
-      // Fall through to heuristic crop.
-    }
-  }
-
-  const width = image.width;
-  const height = image.height;
-  const cropWidth = width * 0.5;
-  const cropHeight = height * 0.58;
-  return {
-    x: (width - cropWidth) / 2,
-    y: (height - cropHeight) / 2.6,
-    width: cropWidth,
-    height: cropHeight,
-    method: "center_crop",
-  };
-}
-
-async function cropFace(dataUrl: string) {
-  const image = await dataUrlToImage(dataUrl);
-  const bounds = await detectFaceBounds(dataUrl);
-  const canvas = document.createElement("canvas");
-  canvas.width = 220;
-  canvas.height = 220;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) throw new Error("Unable to initialize face crop canvas");
-  ctx.drawImage(
-    image,
-    bounds.x,
-    bounds.y,
-    bounds.width,
-    bounds.height,
-    0,
-    0,
-    canvas.width,
-    canvas.height,
-  );
-  return {
-    faceDataUrl: canvas.toDataURL("image/jpeg", 0.9),
-    method: bounds.method,
-  };
-}
-
-async function toSignature(dataUrl: string, size = 32) {
-  const image = await dataUrlToImage(dataUrl);
-  const canvas = document.createElement("canvas");
-  canvas.width = size;
-  canvas.height = size;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) throw new Error("Unable to initialize comparison canvas");
-  ctx.drawImage(image, 0, 0, size, size);
-  const { data } = ctx.getImageData(0, 0, size, size);
-  const signature: number[] = [];
-  for (let i = 0; i < data.length; i += 4) {
-    signature.push((data[i] * 0.299 + data[i + 1] * 0.587 + data[i + 2] * 0.114) / 255);
-  }
-  return signature;
-}
-
-async function scoreSimilarity(idFace: string, selfieFace: string) {
-  const [a, b] = await Promise.all([toSignature(idFace), toSignature(selfieFace)]);
-  let diff = 0;
-  for (let i = 0; i < a.length; i += 1) {
-    diff += Math.abs(a[i] - b[i]);
-  }
-  const averageDiff = diff / a.length;
-  return Math.max(0, Math.min(100, Math.round((1 - averageDiff) * 100)));
-}
-
-async function scoreMotion(firstFrame: string, secondFrame: string) {
-  const [a, b] = await Promise.all([toSignature(firstFrame, 24), toSignature(secondFrame, 24)]);
-  let diff = 0;
-  for (let i = 0; i < a.length; i += 1) {
-    diff += Math.abs(a[i] - b[i]);
-  }
-  return Number((diff / a.length).toFixed(3));
-}
-
 function CameraCaptureModal({
   open,
   label,
@@ -203,22 +94,12 @@ function CameraCaptureModal({
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const [error, setError] = useState("");
-  const [challengeIndex, setChallengeIndex] = useState(0);
-  const [captures, setCaptures] = useState<string[]>([]);
-
-  const selfieChallenges = [
-    "Look straight into the camera",
-    "Turn your face slightly to the left",
-    "Turn your face slightly to the right",
-  ];
 
   useEffect(() => {
     if (!open) return;
 
     let cancelled = false;
     setError("");
-    setChallengeIndex(0);
-    setCaptures([]);
     navigator.mediaDevices?.getUserMedia({ video: { facingMode: "user" }, audio: false })
       .then((stream) => {
         if (cancelled) {
@@ -257,35 +138,11 @@ function CameraCaptureModal({
     return canvas.toDataURL("image/jpeg", 0.92);
   };
 
-  const handleCapture = async () => {
+  const handleCapture = () => {
     const frame = captureFrame();
     if (!frame) return;
 
-    if (mode === "document") {
-      onCapture({ dataUrl: frame });
-      onClose();
-      return;
-    }
-
-    const nextCaptures = [...captures, frame];
-    if (challengeIndex < selfieChallenges.length - 1) {
-      setCaptures(nextCaptures);
-      setChallengeIndex((current) => current + 1);
-      return;
-    }
-
-    const leftMotion = await scoreMotion(nextCaptures[0], nextCaptures[1]);
-    const rightMotion = await scoreMotion(nextCaptures[0], nextCaptures[2]);
-    const livenessChecks = [
-      { challenge: selfieChallenges[1], motionScore: leftMotion, passed: leftMotion >= 0.045 },
-      { challenge: selfieChallenges[2], motionScore: rightMotion, passed: rightMotion >= 0.045 },
-    ];
-
-    onCapture({
-      dataUrl: nextCaptures[0],
-      livenessFrames: nextCaptures,
-      livenessChecks,
-    });
+    onCapture({ dataUrl: frame });
     onClose();
   };
 
@@ -311,21 +168,16 @@ function CameraCaptureModal({
               </div>
               <p className="text-sm text-slate-500">
                 {mode === "selfie"
-                  ? `Challenge ${challengeIndex + 1} of ${selfieChallenges.length}: ${selfieChallenges[challengeIndex]}`
+                  ? "Capture a clear, front-facing selfie in good lighting."
                   : "Make sure the frame is well-lit and the document or face is fully visible."}
               </p>
-              {mode === "selfie" ? (
-                <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-600">
-                  We will capture three selfie frames and check that your face position changes across the liveness prompts.
-                </div>
-              ) : null}
             </>
           )}
         </div>
         <div className="px-6 py-4 border-t border-slate-200 flex justify-end gap-3">
           <button onClick={onClose} className="px-4 py-2 rounded-xl border border-slate-300 text-slate-700 hover:bg-slate-50">Cancel</button>
           <button onClick={() => void handleCapture()} disabled={!!error} className="px-4 py-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800 disabled:opacity-50">
-            {mode === "selfie" && challengeIndex < selfieChallenges.length - 1 ? "Capture And Continue" : "Capture"}
+            Capture
           </button>
         </div>
         <canvas ref={canvasRef} className="hidden" />
@@ -337,36 +189,20 @@ function CameraCaptureModal({
 function KycArtifactManager({
   selectedMethod,
   onArtifactsChange,
-  onBiometricChange,
 }: {
   selectedMethod: string;
   onArtifactsChange: (docs: UploadedDoc[]) => void;
-  onBiometricChange: (report: BiometricReport | null) => void;
 }) {
   const [uploadedDocs, setUploadedDocs] = useState<UploadedDoc[]>([]);
   const [docStates, setDocStates] = useState<Record<string, DocState>>({});
   const [loading, setLoading] = useState(true);
   const [cameraDocType, setCameraDocType] = useState<string | null>(null);
-  const [biometricReport, setBiometricReport] = useState<BiometricReport | null>(null);
-  const [biometricError, setBiometricError] = useState("");
-  const [biometricRunning, setBiometricRunning] = useState(false);
-  const [selfieChallengeState, setSelfieChallengeState] = useState<{ frames: string[]; checks: { challenge: string; motionScore: number; passed: boolean }[] } | null>(null);
 
-  const refreshDocs = async (fallbackReport?: BiometricReport | null) => {
+  const refreshDocs = async () => {
     try {
       const docs = await api.kyc.documents();
       setUploadedDocs(docs);
       onArtifactsChange(docs);
-      const reportDoc = docs.find((doc: UploadedDoc) => doc.docType === "biometric_report" && doc.fileData?.startsWith("data:application/json"));
-      if (reportDoc?.fileData) {
-        const [, encoded] = reportDoc.fileData.split(",");
-        const parsed = JSON.parse(atob(encoded)) as BiometricReport;
-        setBiometricReport(parsed);
-        onBiometricChange(parsed);
-      } else if (fallbackReport) {
-        setBiometricReport(fallbackReport);
-        onBiometricChange(fallbackReport);
-      }
       return docs;
     } catch (error) {
       console.error("Failed to fetch KYC documents", error);
@@ -425,14 +261,7 @@ function KycArtifactManager({
         ...prev,
         [docType]: { dataUrl: "", fileName: "", uploading: false, error: "" },
       }));
-      const docs = await refreshDocs();
-      if ((docType === "identity_front" || docType === "selfie_live") && selfieChallengeState?.checks?.length) {
-        const identityImage = docs.find((doc) => doc.docType === "identity_front")?.fileData || "";
-        const selfieImage = docs.find((doc) => doc.docType === "selfie_live")?.fileData || "";
-        if (identityImage && selfieImage) {
-          await analyzeBiometrics({ identityImage, selfieImage });
-        }
-      }
+      await refreshDocs();
     } catch (err: any) {
       setDocStates((prev) => ({
         ...prev,
@@ -442,58 +271,6 @@ function KycArtifactManager({
   };
 
   const uploadedMap = useMemo(() => new Map(uploadedDocs.map((doc) => [doc.docType, doc])), [uploadedDocs]);
-
-  const getArtifactData = (docType: string) => docStates[docType]?.dataUrl || uploadedMap.get(docType)?.fileData || "";
-
-  const analyzeBiometrics = async (sources?: { identityImage?: string; selfieImage?: string }) => {
-    setBiometricError("");
-    setBiometricRunning(true);
-    try {
-      const identityImage = sources?.identityImage || getArtifactData("identity_front");
-      const selfieImage = sources?.selfieImage || getArtifactData("selfie_live");
-
-      if (!identityImage || !selfieImage) {
-        throw new Error("Upload the ID front and complete the live selfie capture before running face match.");
-      }
-
-      if (!selfieChallengeState?.checks?.length) {
-        throw new Error("Complete the selfie liveness capture to generate the biometric report.");
-      }
-
-      const [{ faceDataUrl: identityFace, method: idMethod }, { faceDataUrl: selfieFace, method: selfieMethod }] = await Promise.all([
-        cropFace(identityImage),
-        cropFace(selfieImage),
-      ]);
-      const similarityScore = await scoreSimilarity(identityFace, selfieFace);
-      const livenessPassed = selfieChallengeState.checks.every((check) => check.passed);
-      const matchPassed = similarityScore >= 58;
-      const report: BiometricReport = {
-        similarityScore,
-        matchPassed,
-        livenessPassed,
-        livenessChecks: selfieChallengeState.checks,
-        detectionMethod: idMethod === selfieMethod ? idMethod : `${idMethod}+${selfieMethod}`,
-        recommendation: matchPassed && livenessPassed ? "ready_for_review" : "manual_review_required",
-        generatedAt: new Date().toISOString(),
-      };
-
-      const reportData = `data:application/json;base64,${btoa(JSON.stringify(report))}`;
-
-      await Promise.all([
-        api.kyc.uploadDocument({ docType: "identity_face", fileName: `identity-face-${Date.now()}.jpg`, fileData: identityFace }),
-        api.kyc.uploadDocument({ docType: "selfie_face", fileName: `selfie-face-${Date.now()}.jpg`, fileData: selfieFace }),
-        api.kyc.uploadDocument({ docType: "biometric_report", fileName: `biometric-report-${Date.now()}.json`, fileData: reportData }),
-      ]);
-
-      setBiometricReport(report);
-      onBiometricChange(report);
-      await refreshDocs(report);
-    } catch (error: any) {
-      setBiometricError(error.message || "Failed to generate biometric report");
-    } finally {
-      setBiometricRunning(false);
-    }
-  };
 
   return (
     <div className="bg-white rounded-3xl border border-slate-200 p-6 space-y-5">
@@ -579,51 +356,6 @@ function KycArtifactManager({
         })}
       </div>
 
-      <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 space-y-4">
-        <div className="flex items-start justify-between gap-4 flex-wrap">
-          <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Step 2B</p>
-            <h3 className="text-lg font-semibold text-slate-900">Biometric Check</h3>
-            <p className="text-sm text-slate-500 mt-1">Extract faces from the ID and live selfie, generate a similarity score, and store the liveness report for the reviewer.</p>
-          </div>
-          <button
-            type="button"
-            onClick={() => void analyzeBiometrics()}
-            disabled={biometricRunning}
-            className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-sm text-white hover:bg-slate-800 disabled:opacity-50"
-          >
-            <ScanFace className="w-4 h-4" />
-            {biometricRunning ? "Analyzing..." : "Run Face Match"}
-          </button>
-        </div>
-
-        {biometricError ? <div className="rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{biometricError}</div> : null}
-
-        {biometricReport ? (
-          <div className="grid gap-3 md:grid-cols-3">
-            <div className="rounded-2xl bg-white border border-slate-200 p-4">
-              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Face Match</p>
-              <p className="mt-2 text-2xl font-semibold text-slate-900">{biometricReport.similarityScore}%</p>
-              <p className="text-sm text-slate-500 mt-1">{biometricReport.matchPassed ? "Match threshold passed" : "Manual review required"}</p>
-            </div>
-            <div className="rounded-2xl bg-white border border-slate-200 p-4">
-              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Liveness</p>
-              <p className="mt-2 text-2xl font-semibold text-slate-900">{biometricReport.livenessPassed ? "Passed" : "Check failed"}</p>
-              <p className="text-sm text-slate-500 mt-1">Based on multi-frame selfie movement</p>
-            </div>
-            <div className="rounded-2xl bg-white border border-slate-200 p-4">
-              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Detection</p>
-              <p className="mt-2 text-lg font-semibold text-slate-900">{toPrettyDocType(biometricReport.detectionMethod)}</p>
-              <p className="text-sm text-slate-500 mt-1">Stored with extracted face evidence</p>
-            </div>
-          </div>
-        ) : (
-          <div className="rounded-2xl border border-dashed border-slate-300 bg-white px-4 py-3 text-sm text-slate-500">
-            Run the biometric check after uploading the ID front and finishing the live selfie challenge.
-          </div>
-        )}
-      </div>
-
       <CameraCaptureModal
         open={!!cameraDocType}
         label={cameraDocType ? toPrettyDocType(cameraDocType) : "Capture"}
@@ -632,12 +364,6 @@ function KycArtifactManager({
         onCapture={(payload) => {
           if (!cameraDocType) return;
           setDocData(cameraDocType, payload.dataUrl, `${cameraDocType}-${Date.now()}.jpg`);
-          if (cameraDocType === "selfie_live") {
-            setSelfieChallengeState({
-              frames: payload.livenessFrames || [],
-              checks: payload.livenessChecks || [],
-            });
-          }
         }}
       />
     </div>
@@ -646,12 +372,10 @@ function KycArtifactManager({
 
 function ReviewSubmission({
   uploadedDocs,
-  biometricReport,
   status,
   onSubmitted,
 }: {
   uploadedDocs: UploadedDoc[];
-  biometricReport: BiometricReport | null;
   status: any;
   onSubmitted: () => Promise<void>;
 }) {
@@ -688,11 +412,6 @@ function ReviewSubmission({
 
     if (missingRequired.length > 0) {
       setError(`Please upload all required artifacts: ${missingRequired.map((doc) => doc.label).join(", ")}`);
-      return;
-    }
-
-    if (!biometricReport) {
-      setError("Run the biometric face match and liveness check before submitting for review.");
       return;
     }
 
@@ -781,7 +500,7 @@ function ReviewSubmission({
           <div>
             <p className="font-medium text-slate-900">Artifacts ready: {uploadedDocs.length}</p>
             <p className="text-sm text-slate-500">Required left: {missingRequired.length === 0 && missingIdentityFields.length === 0 ? "None" : [...missingIdentityFields, ...missingRequired.map((doc) => doc.label)].join(", ")}</p>
-            <p className="text-sm text-slate-500 mt-1">Biometric status: {biometricReport ? `${biometricReport.similarityScore}% match, ${biometricReport.livenessPassed ? "liveness passed" : "liveness failed"}` : "Pending biometric check"}</p>
+            <p className="text-sm text-slate-500 mt-1">Identity documents and the live selfie are reviewed manually before final approval.</p>
           </div>
           <button type="submit" disabled={submitting} className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-slate-900 text-white hover:bg-slate-800 disabled:opacity-50">
             <ShieldCheck className="w-4 h-4" />
@@ -830,7 +549,6 @@ export default function KYCVerification() {
   const { user } = useAuth();
   const [kycStatus, setKycStatus] = useState<any>(null);
   const [uploadedDocs, setUploadedDocs] = useState<UploadedDoc[]>([]);
-  const [biometricReport, setBiometricReport] = useState<BiometricReport | null>(null);
   const [loading, setLoading] = useState(true);
 
   const refreshStatus = async () => {
@@ -882,7 +600,7 @@ export default function KYCVerification() {
           <div className="mt-3 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
             <div>
               <h1 className="text-3xl font-bold">KYC Review Pipeline</h1>
-              <p className="text-white/80 mt-2 max-w-2xl">Capture documents, add a live selfie, and submit your identity package for manual review. The architecture is future-ready for DigiLocker, OCR, and advanced fraud modules.</p>
+              <p className="text-white/80 mt-2 max-w-2xl">Capture documents, add a live selfie, and submit your identity package for manual review. The architecture is future-ready for DigiLocker, OCR, and provider-based verification upgrades.</p>
             </div>
             <div className="grid grid-cols-3 gap-2 min-w-[260px]">
               <div className="rounded-2xl bg-white/10 p-3 backdrop-blur-sm border border-white/10">
@@ -937,12 +655,11 @@ export default function KYCVerification() {
           <KycArtifactManager
             selectedMethod={kycStatus?.verificationMethod || "document_review"}
             onArtifactsChange={setUploadedDocs}
-            onBiometricChange={setBiometricReport}
           />
         </div>
 
         <div className="space-y-6">
-          <ReviewSubmission uploadedDocs={uploadedDocs} biometricReport={biometricReport} status={kycStatus} onSubmitted={refreshStatus} />
+          <ReviewSubmission uploadedDocs={uploadedDocs} status={kycStatus} onSubmitted={refreshStatus} />
 
           <div className="rounded-3xl border border-slate-200 bg-white p-6 space-y-4">
             <div className="flex items-center gap-3">
@@ -951,7 +668,7 @@ export default function KYCVerification() {
             </div>
             <ul className="space-y-3 text-sm text-slate-600">
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-500" />This workflow supports document upload, camera capture, and manual reviewer approval.</li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-500" />Architecture supports future integration for AI-based document validation, liveness checks, and NFC-assisted verification.</li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-500" />Architecture supports future integration for AI-based document validation, provider-assisted checks, and NFC-assisted verification.</li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-500" />DigiLocker and provider-based eKYC can be added later without redesigning the core KYC state machine.</li>
             </ul>
           </div>
