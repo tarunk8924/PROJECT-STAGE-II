@@ -52,9 +52,6 @@ const DOC_LABELS: Record<string, string> = {
   identity_back: "Government ID Back",
   address_proof: "Address Proof",
   selfie_live: "Live Selfie",
-  identity_face: "ID Face Crop",
-  selfie_face: "Selfie Face Crop",
-  biometric_report: "Biometric Report",
 };
 
 function toTitle(value: string) {
@@ -104,25 +101,6 @@ function resolveDocumentPreview(doc: ReviewedDocument) {
   }
 
   return { kind: "other" as const, src: fileData };
-}
-
-function parseBiometricReport(documents: ReviewedDocument[]) {
-  const reportDoc = documents.find((doc) => doc.docType === "biometric_report");
-  if (!reportDoc?.fileData?.startsWith("data:application/json")) return null;
-  try {
-    const [, encoded] = reportDoc.fileData.split(",");
-    return JSON.parse(atob(encoded)) as {
-      similarityScore: number;
-      matchPassed: boolean;
-      livenessPassed: boolean;
-      livenessChecks: { challenge: string; motionScore: number; passed: boolean }[];
-      detectionMethod: string;
-      recommendation: string;
-      generatedAt: string;
-    };
-  } catch {
-    return null;
-  }
 }
 
 function renderDocumentPreview(doc: ReviewedDocument, className: string) {
@@ -240,8 +218,17 @@ export default function AdminKycReviews() {
     || null;
 
   const primaryIdDoc = useMemo(() => documents.find((doc) => doc.docType === "identity_front") || documents[0] || null, [documents]);
-  const biometricReport = useMemo(() => parseBiometricReport(documents), [documents]);
-  const secondaryDocs = useMemo(() => documents.filter((doc) => doc.id !== primaryIdDoc?.id), [documents, primaryIdDoc]);
+  const selfieDoc = useMemo(() => documents.find((doc) => doc.docType === "selfie_live") || null, [documents]);
+  const addressDoc = useMemo(() => documents.find((doc) => doc.docType === "address_proof") || null, [documents]);
+  const secondaryDocs = useMemo(
+    () =>
+      documents.filter(
+        (doc) =>
+          doc.id !== primaryIdDoc?.id &&
+          !["identity_face", "selfie_face", "biometric_report"].includes(doc.docType)
+      ),
+    [documents, primaryIdDoc]
+  );
 
   const runAction = async (action: "approve" | "reject") => {
     if (!selectedRecord) return;
@@ -398,11 +385,11 @@ export default function AdminKycReviews() {
                     </div>
 
                     <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                      <div className="flex items-center gap-2 text-slate-500 text-xs uppercase tracking-wide"><ShieldCheck className="w-4 h-4" /> Biometric review</div>
+                      <div className="flex items-center gap-2 text-slate-500 text-xs uppercase tracking-wide"><ShieldCheck className="w-4 h-4" /> Review evidence</div>
                       <div className="mt-3 space-y-2 text-sm text-slate-600">
-                        <p><span className="font-medium text-slate-900">Face match:</span> {biometricReport ? `${biometricReport.similarityScore}%` : "Not generated"}</p>
-                        <p><span className="font-medium text-slate-900">Liveness:</span> {biometricReport ? (biometricReport.livenessPassed ? "Passed" : "Failed") : "Not generated"}</p>
-                        <p><span className="font-medium text-slate-900">Detection:</span> {biometricReport ? toTitle(biometricReport.detectionMethod) : "Not generated"}</p>
+                        <p><span className="font-medium text-slate-900">Live selfie:</span> {selfieDoc ? "Uploaded" : "Missing"}</p>
+                        <p><span className="font-medium text-slate-900">Address proof:</span> {addressDoc ? "Uploaded" : "Missing"}</p>
+                        <p><span className="font-medium text-slate-900">Decision mode:</span> Manual document and selfie review</p>
                       </div>
                     </div>
 
@@ -432,47 +419,6 @@ export default function AdminKycReviews() {
                     </div>
                   ) : (
                     <div className="space-y-5">
-                      {biometricReport && (
-                        <div className="rounded-3xl border border-indigo-200 bg-indigo-50 p-5">
-                          <div className="flex items-center justify-between gap-3 flex-wrap">
-                            <div>
-                              <p className="text-xs uppercase tracking-[0.18em] text-indigo-500">Biometric Summary</p>
-                              <h4 className="text-lg font-semibold text-slate-900 mt-1">Face match and liveness report</h4>
-                            </div>
-                            <span className={`rounded-full px-3 py-1 text-xs font-semibold ${biometricReport.matchPassed && biometricReport.livenessPassed ? "bg-emerald-100 text-emerald-800" : "bg-amber-100 text-amber-800"}`}>
-                              {biometricReport.recommendation === "ready_for_review" ? "Ready for review" : "Manual review required"}
-                            </span>
-                          </div>
-                          <div className="mt-4 grid gap-3 md:grid-cols-3">
-                            <div className="rounded-2xl bg-white p-4 border border-indigo-100">
-                              <p className="text-xs uppercase tracking-wide text-slate-400">Similarity score</p>
-                              <p className="mt-2 text-2xl font-semibold text-slate-900">{biometricReport.similarityScore}%</p>
-                            </div>
-                            <div className="rounded-2xl bg-white p-4 border border-indigo-100">
-                              <p className="text-xs uppercase tracking-wide text-slate-400">Liveness result</p>
-                              <p className="mt-2 text-2xl font-semibold text-slate-900">{biometricReport.livenessPassed ? "Passed" : "Failed"}</p>
-                            </div>
-                            <div className="rounded-2xl bg-white p-4 border border-indigo-100">
-                              <p className="text-xs uppercase tracking-wide text-slate-400">Detection method</p>
-                              <p className="mt-2 text-lg font-semibold text-slate-900">{toTitle(biometricReport.detectionMethod)}</p>
-                            </div>
-                          </div>
-                          <div className="mt-4 rounded-2xl bg-white p-4 border border-indigo-100">
-                            <p className="text-xs uppercase tracking-wide text-slate-400">Liveness checks</p>
-                            <div className="mt-3 space-y-2">
-                              {biometricReport.livenessChecks.map((check, index) => (
-                                <div key={index} className="flex items-center justify-between gap-3 text-sm text-slate-600">
-                                  <span>{check.challenge}</span>
-                                  <span className={check.passed ? "text-emerald-700 font-medium" : "text-amber-700 font-medium"}>
-                                    Motion {check.motionScore.toFixed(3)} · {check.passed ? "Pass" : "Review"}
-                                  </span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      )}
-
                       {primaryIdDoc && (
                         <article className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50">
                           <div className="flex items-center justify-between gap-3 border-b border-slate-200 bg-white px-4 py-3 flex-wrap">
